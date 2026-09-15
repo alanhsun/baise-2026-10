@@ -1,0 +1,142 @@
+routes:
+- day_id: day-01
+  title: D1 当日路线
+  summary: 门到门约8—10小时，全部时刻为待购票目标
+  note: 路线示意，不按地理比例；地图链接为名称检索，需确认实际入口和上下车点。时长为规划估算，不能替代票面或实时导航。
+  stops:
+  - label: 南城住处
+    detail: 07:10左右，按地址重算
+    url: https://uri.amap.com/search?keyword=%E5%8D%97%E5%9F%8E%E4%BD%8F%E5%A4%84&callnative=0
+  - label: 东莞西平西站
+    detail: 城际前往番禺
+    url: https://uri.amap.com/search?keyword=%E4%B8%9C%E8%8E%9E%E8%A5%BF%E5%B9%B3%E8%A5%BF%E7%AB%99&callnative=0
+  - label: 番禺站 / 广州南站
+    detail: 预留90分钟换乘
+    url: https://uri.amap.com/search?keyword=%E7%95%AA%E7%A6%BA%E7%AB%99%20/%20%E5%B9%BF%E5%B7%9E%E5%8D%97%E7%AB%99&callnative=0
+  - label: 百色站
+    detail: 目标15—16时抵达
+    url: https://uri.amap.com/search?keyword=%E7%99%BE%E8%89%B2%E7%AB%99&callnative=0
+  - label: 梦之源大酒店 百色
+    detail: 候选酒店，16:30后休息
+    url: https://uri.amap.com/search?keyword=%E6%A2%A6%E4%B9%8B%E6%BA%90%E5%A4%A7%E9%85%92%E5%BA%97%20%E7%99%BE%E8%89%B2&callnative=0
+  segments:
+  - 出租车约20—40分钟
+  - 城际快慢车约30—70分钟另含候车
+  - 动车约5—6小时，票面优先
+  - 出租车含候车约30—60分钟
+- day_id: day-02
+  title: D2 当日路线
+  summary: 4段城区出租车，中间回酒店午休
+  note: 路线示意，不按地理比例；地图链接为名称检索，需确认实际入口和上下车点。时长为规划估算，不能替代票面或实时导航。
+  stops:
+  - label: 梦之源大酒店 百色
+    detail: 08:20左右出发
+    url: https://uri.amap.com/search?keyword=%E6%A2%A6%E4%B9%8B%E6%BA%90%E5%A4%A7%E9%85%92%E5%BA%97%20%E7%99%BE%E8%89%B2&callnative=0
+  - label: 百色起义纪念馆
+    detail: 09:00—10:45
+    url: https://uri.amap.com/search?keyword=%E7%99%BE%E8%89%B2%E8%B5%B7%E4%B9%89%E7%BA%AA%E5%BF%B5%E9%A6%86&callnative=0
+  - label: 梦之源大酒店 百色
+    detail: 午餐、午休至14:30
+    url: https://uri.amap.com/search?keyword=%E6%A2%A6%E4%B9%8B%E6%BA%90%E5%A4%A7%E9%85%92%E5%BA%97%20%E7%99%BE%E8%89%B2&callnative=0
+  - label: 粤东会馆 百色
+    detail: 15:00—16:00
+    url: https://uri.amap.com/search?keyword=%E7%B2%A4%E4%B8%9C%E4%BC%9A%E9%A6%86%20%E7%99%BE%E8%89%B2&callnative=0
+  - label: 百色文明街
+    detail: 16:00短逛、晚饭
+    url: https://uri.amap.com/search?keyword=%E7%99%BE%E8%89%B2%E6%96%87%E6%98%8E%E8%A1%97&callnative=0
+  - label: 梦之源大酒店 百色
+    detail: 18:15前后回店
+    url: https://uri.amap.com/search?keyword=%E6%A2%A6%E4%B9%8B%E6%BA%90%E5%A4%A7%E9%85%92%E5%BA%97%20%E7%99%BE%E8%89%B2&callnative=0
+  segments:
+  - 出租车含候车约20—40分钟
+  - 出租车约20—40分钟
+  - 出租车约20—30分钟
+  - 邻近街区步行，现场选平缓短线
+  - 出租车约20—30分钟
+- day_id: day-03
+  title: D3 当日路线
+  summary: 跨城预约车；渠洋湖只有接送落实才加入
+  note: 路线示意，不按地理比例；地图链接为名称检索，需确认实际入口和上下车点。时长为规划估算，不能替代票面或实时导航。
+  stops:
+  - label: 梦之源大酒店 百色
+    detail: 08:30上车，行李随行
+    url: https://uri.amap.com/search?keyword=%E6%A2%A6%E4%B9%8B%E6%BA%90%E5%A4%A7%E9%85%92%E5%BA%97%20%E7%99%BE%E8%89%B2&callnative=0
+  - label: 渠洋湖 靖西
+    detail: 正式接待点先确认；候选坡谷汽车露营地
+    url: https://uri.amap.com/search?keyword=%E6%B8%A0%E6%B4%8B%E6%B9%96%20%E9%9D%96%E8%A5%BF&callnative=0
+  - label: 维也纳国际酒店 靖西幸福路店
+    detail: 14:30左右入住；未游湖则提前到城
+    url: https://uri.amap.com/search?keyword=%E7%BB%B4%E4%B9%9F%E7%BA%B3%E5%9B%BD%E9%99%85%E9%85%92%E5%BA%97%20%E9%9D%96%E8%A5%BF%E5%B9%B8%E7%A6%8F%E8%B7%AF%E5%BA%97&callnative=0
+  segments:
+  - 约2.5小时含休息；入口与路况待核
+  - 湖岸约1小时＋午餐1小时，再车程约1—1.5小时
+  branches:
+  - after_stop: 1
+    title: 没有湖区后续车，直接靖西
+    options:
+    - label: 直达靖西酒店
+      detail: 约3—4小时含休息；先吃午饭，按酒店规定入住
+      url: https://uri.amap.com/search?keyword=%E7%BB%B4%E4%B9%9F%E7%BA%B3%E5%9B%BD%E9%99%85%E9%85%92%E5%BA%97%20%E9%9D%96%E8%A5%BF%E5%B9%B8%E7%A6%8F%E8%B7%AF%E5%BA%97&callnative=0
+- day_id: day-04
+  title: D4 当日路线
+  summary: 三段车各自确认；午后旧州可取消
+  note: 路线示意，不按地理比例；地图链接为名称检索，需确认实际入口和上下车点。时长为规划估算，不能替代票面或实时导航。
+  stops:
+  - label: 维也纳国际酒店 靖西幸福路店
+    detail: 07:45出发
+    url: https://uri.amap.com/search?keyword=%E7%BB%B4%E4%B9%9F%E7%BA%B3%E5%9B%BD%E9%99%85%E9%85%92%E5%BA%97%20%E9%9D%96%E8%A5%BF%E5%B9%B8%E7%A6%8F%E8%B7%AF%E5%BA%97&callnative=0
+  - label: 鹅泉景区 靖西
+    detail: 08:45短游，11:00午餐
+    url: https://uri.amap.com/search?keyword=%E9%B9%85%E6%B3%89%E6%99%AF%E5%8C%BA%20%E9%9D%96%E8%A5%BF&callnative=0
+  - label: 旧州景区 靖西
+    detail: 13:30短游；下车时拍回程上车点
+    url: https://uri.amap.com/search?keyword=%E6%97%A7%E5%B7%9E%E6%99%AF%E5%8C%BA%20%E9%9D%96%E8%A5%BF&callnative=0
+  - label: 维也纳国际酒店 靖西幸福路店
+    detail: 16:00前后回店休息
+    url: https://uri.amap.com/search?keyword=%E7%BB%B4%E4%B9%9F%E7%BA%B3%E5%9B%BD%E9%99%85%E9%85%92%E5%BA%97%20%E9%9D%96%E8%A5%BF%E5%B9%B8%E7%A6%8F%E8%B7%AF%E5%BA%97&callnative=0
+  segments:
+  - 车程与入口排队合计30—60分钟
+  - 预约车20—40分钟；不走路串两景区
+  - 预约车30—60分钟含候车余量
+- day_id: day-05
+  title: D5 当日路线
+  summary: 约150—180公里，3—4小时含休息；实时地图复核
+  note: 路线示意，不按地理比例；地图链接为名称检索，需确认实际入口和上下车点。时长为规划估算，不能替代票面或实时导航。
+  stops:
+  - label: 维也纳国际酒店 靖西幸福路店
+    detail: 09:00前退房上车
+    url: https://uri.amap.com/search?keyword=%E7%BB%B4%E4%B9%9F%E7%BA%B3%E5%9B%BD%E9%99%85%E9%85%92%E5%BA%97%20%E9%9D%96%E8%A5%BF%E5%B9%B8%E7%A6%8F%E8%B7%AF%E5%BA%97&callnative=0
+  - label: 梦之源大酒店 百色
+    detail: 12:30左右到，午餐、午休
+    url: https://uri.amap.com/search?keyword=%E6%A2%A6%E4%B9%8B%E6%BA%90%E5%A4%A7%E9%85%92%E5%BA%97%20%E7%99%BE%E8%89%B2&callnative=0
+  - label: 百色酒店附近餐饮
+    detail: 自选短走或打车；当天不再去远景区
+    url: https://uri.amap.com/search?keyword=%E7%99%BE%E8%89%B2%E9%85%92%E5%BA%97%E9%99%84%E8%BF%91%E9%A4%90%E9%A5%AE&callnative=0
+  segments:
+  - 跨城点到点预约，休息一次
+  - 短程按需，之后回同一酒店
+- day_id: day-06
+  title: D6 当日路线
+  summary: 百色上午出发，傍晚到南城；票面确定后倒推
+  note: 路线示意，不按地理比例；地图链接为名称检索，需确认实际入口和上下车点。时长为规划估算，不能替代票面或实时导航。
+  stops:
+  - label: 梦之源大酒店 百色
+    detail: 按发车前75—90分钟到站倒推
+    url: https://uri.amap.com/search?keyword=%E6%A2%A6%E4%B9%8B%E6%BA%90%E5%A4%A7%E9%85%92%E5%BA%97%20%E7%99%BE%E8%89%B2&callnative=0
+  - label: 百色站
+    detail: 约10:30发车仅为示例
+    url: https://uri.amap.com/search?keyword=%E7%99%BE%E8%89%B2%E7%AB%99&callnative=0
+  - label: 广州南站 / 番禺站
+    detail: 出站换乘城际，不急跑
+    url: https://uri.amap.com/search?keyword=%E5%B9%BF%E5%B7%9E%E5%8D%97%E7%AB%99%20/%20%E7%95%AA%E7%A6%BA%E7%AB%99&callnative=0
+  - label: 东莞西平西站
+    detail: 按实际快慢车时间到达
+    url: https://uri.amap.com/search?keyword=%E4%B8%9C%E8%8E%9E%E8%A5%BF%E5%B9%B3%E8%A5%BF%E7%AB%99&callnative=0
+  - label: 南城住处
+    detail: 打车到家，无第6晚酒店
+    url: https://uri.amap.com/search?keyword=%E5%8D%97%E5%9F%8E%E4%BD%8F%E5%A4%84&callnative=0
+  segments:
+  - 预约出租车约30—60分钟含余量
+  - 动车约5—6小时
+  - 换乘与城际合计约1.5—2.5小时
+  - 出租车约20—40分钟

@@ -1,0 +1,21 @@
+segment_id,date,from,to,mode,depart_at,arrive_at,duration_minutes,buffer_minutes,planned_cost_cny,source_id,amap_url,baidu_url,status,notes
+D1-1,2026-10-01,南城住处,东莞西平西站,路线规划，详见备注,,,,,,,https://uri.amap.com/search?keyword=%E4%B8%9C%E8%8E%9E%E8%A5%BF%E5%B9%B3%E8%A5%BF%E7%AB%99&callnative=0,,candidate,出租车约20—40分钟
+D1-2,2026-10-01,东莞西平西站,番禺站 / 广州南站,路线规划，详见备注,,,,,,,https://uri.amap.com/search?keyword=%E7%95%AA%E7%A6%BA%E7%AB%99%20/%20%E5%B9%BF%E5%B7%9E%E5%8D%97%E7%AB%99&callnative=0,,candidate,城际快慢车约30—70分钟另含候车
+D1-3,2026-10-01,番禺站 / 广州南站,百色站,路线规划，详见备注,,,,,,,https://uri.amap.com/search?keyword=%E7%99%BE%E8%89%B2%E7%AB%99&callnative=0,,candidate,动车约5—6小时，票面优先
+D1-4,2026-10-01,百色站,梦之源大酒店 百色,路线规划，详见备注,,,,,,,https://uri.amap.com/search?keyword=%E6%A2%A6%E4%B9%8B%E6%BA%90%E5%A4%A7%E9%85%92%E5%BA%97%20%E7%99%BE%E8%89%B2&callnative=0,,candidate,出租车含候车约30—60分钟
+D2-1,2026-10-02,梦之源大酒店 百色,百色起义纪念馆,路线规划，详见备注,,,,,,,https://uri.amap.com/search?keyword=%E7%99%BE%E8%89%B2%E8%B5%B7%E4%B9%89%E7%BA%AA%E5%BF%B5%E9%A6%86&callnative=0,,candidate,出租车含候车约20—40分钟
+D2-2,2026-10-02,百色起义纪念馆,梦之源大酒店 百色,路线规划，详见备注,,,,,,,https://uri.amap.com/search?keyword=%E6%A2%A6%E4%B9%8B%E6%BA%90%E5%A4%A7%E9%85%92%E5%BA%97%20%E7%99%BE%E8%89%B2&callnative=0,,candidate,出租车约20—40分钟
+D2-3,2026-10-02,梦之源大酒店 百色,粤东会馆 百色,路线规划，详见备注,,,,,,,https://uri.amap.com/search?keyword=%E7%B2%A4%E4%B8%9C%E4%BC%9A%E9%A6%86%20%E7%99%BE%E8%89%B2&callnative=0,,candidate,出租车约20—30分钟
+D2-4,2026-10-02,粤东会馆 百色,百色文明街,路线规划，详见备注,,,,,,,https://uri.amap.com/search?keyword=%E7%99%BE%E8%89%B2%E6%96%87%E6%98%8E%E8%A1%97&callnative=0,,candidate,邻近街区步行，现场选平缓短线
+D2-5,2026-10-02,百色文明街,梦之源大酒店 百色,路线规划，详见备注,,,,,,,https://uri.amap.com/search?keyword=%E6%A2%A6%E4%B9%8B%E6%BA%90%E5%A4%A7%E9%85%92%E5%BA%97%20%E7%99%BE%E8%89%B2&callnative=0,,candidate,出租车约20—30分钟
+D3-1,2026-10-03,梦之源大酒店 百色,渠洋湖 靖西,路线规划，详见备注,,,,,,,https://uri.amap.com/search?keyword=%E6%B8%A0%E6%B4%8B%E6%B9%96%20%E9%9D%96%E8%A5%BF&callnative=0,,candidate,约2.5小时含休息；入口与路况待核
+D3-2,2026-10-03,渠洋湖 靖西,维也纳国际酒店 靖西幸福路店,路线规划，详见备注,,,,,,,https://uri.amap.com/search?keyword=%E7%BB%B4%E4%B9%9F%E7%BA%B3%E5%9B%BD%E9%99%85%E9%85%92%E5%BA%97%20%E9%9D%96%E8%A5%BF%E5%B9%B8%E7%A6%8F%E8%B7%AF%E5%BA%97&callnative=0,,candidate,湖岸约1小时＋午餐1小时，再车程约1—1.5小时
+D4-1,2026-10-04,维也纳国际酒店 靖西幸福路店,鹅泉景区 靖西,路线规划，详见备注,,,,,,,https://uri.amap.com/search?keyword=%E9%B9%85%E6%B3%89%E6%99%AF%E5%8C%BA%20%E9%9D%96%E8%A5%BF&callnative=0,,candidate,车程与入口排队合计30—60分钟
+D4-2,2026-10-04,鹅泉景区 靖西,旧州景区 靖西,路线规划，详见备注,,,,,,,https://uri.amap.com/search?keyword=%E6%97%A7%E5%B7%9E%E6%99%AF%E5%8C%BA%20%E9%9D%96%E8%A5%BF&callnative=0,,candidate,预约车20—40分钟；不走路串两景区
+D4-3,2026-10-04,旧州景区 靖西,维也纳国际酒店 靖西幸福路店,路线规划，详见备注,,,,,,,https://uri.amap.com/search?keyword=%E7%BB%B4%E4%B9%9F%E7%BA%B3%E5%9B%BD%E9%99%85%E9%85%92%E5%BA%97%20%E9%9D%96%E8%A5%BF%E5%B9%B8%E7%A6%8F%E8%B7%AF%E5%BA%97&callnative=0,,candidate,预约车30—60分钟含候车余量
+D5-1,2026-10-05,维也纳国际酒店 靖西幸福路店,梦之源大酒店 百色,路线规划，详见备注,,,,,,,https://uri.amap.com/search?keyword=%E6%A2%A6%E4%B9%8B%E6%BA%90%E5%A4%A7%E9%85%92%E5%BA%97%20%E7%99%BE%E8%89%B2&callnative=0,,candidate,跨城点到点预约，休息一次
+D5-2,2026-10-05,梦之源大酒店 百色,百色酒店附近餐饮,路线规划，详见备注,,,,,,,https://uri.amap.com/search?keyword=%E7%99%BE%E8%89%B2%E9%85%92%E5%BA%97%E9%99%84%E8%BF%91%E9%A4%90%E9%A5%AE&callnative=0,,candidate,短程按需，之后回同一酒店
+D6-1,2026-10-06,梦之源大酒店 百色,百色站,路线规划，详见备注,,,,,,,https://uri.amap.com/search?keyword=%E7%99%BE%E8%89%B2%E7%AB%99&callnative=0,,candidate,预约出租车约30—60分钟含余量
+D6-2,2026-10-06,百色站,广州南站 / 番禺站,路线规划，详见备注,,,,,,,https://uri.amap.com/search?keyword=%E5%B9%BF%E5%B7%9E%E5%8D%97%E7%AB%99%20/%20%E7%95%AA%E7%A6%BA%E7%AB%99&callnative=0,,candidate,动车约5—6小时
+D6-3,2026-10-06,广州南站 / 番禺站,东莞西平西站,路线规划，详见备注,,,,,,,https://uri.amap.com/search?keyword=%E4%B8%9C%E8%8E%9E%E8%A5%BF%E5%B9%B3%E8%A5%BF%E7%AB%99&callnative=0,,candidate,换乘与城际合计约1.5—2.5小时
+D6-4,2026-10-06,东莞西平西站,南城住处,路线规划，详见备注,,,,,,,https://uri.amap.com/search?keyword=%E5%8D%97%E5%9F%8E%E4%BD%8F%E5%A4%84&callnative=0,,candidate,出租车约20—40分钟
