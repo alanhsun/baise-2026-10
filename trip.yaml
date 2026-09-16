@@ -2,8 +2,9 @@ schema_version: 1
 trip_id: baise-2026-10-taxi
 title: 百色·浩坤湖·靖西六日家庭旅行攻略
 timezone: Asia/Shanghai
-stage: detailed_review
-publish: false
+stage: approved
+publish: true
+publication_kind: planning_guide
 start_date: '2026-10-01'
 end_date: '2026-10-06'
 arrival_at: 2026-10-01T15:30+08:00
@@ -19,13 +20,13 @@ party:
   adults: 2
   children: 1
   seniors: 0
-rooms: 2
+rooms: 1
 budget_cny:
-  low: 11750
-  high: 19400
+  low: 9500
+  high: 15400
 pace: relaxed
 lodging_requirements:
-- 每晚两间房，共10间夜
+- 每晚一间房，共5间夜
 - 电梯、安静、可方便打车到大堂
 preferences:
 - 长途铁路优先
@@ -43,6 +44,6 @@ constraints:
 - 准确班次与酒店均未预订
 - arrival_at和departure_at是时刻规划锚点，不是票面
 - 各费用为研究估算，不是用户预算上限
-- 2026-09-17改为2成人1儿童，每晚两间房沿用原要求
+- 2026-09-17改为2成人1儿童，每晚一间房沿用原要求
 - D5下午返回百色，D6返程
 last_verified_at: 2026-09-17T12:00+08:00

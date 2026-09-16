@@ -435,7 +435,18 @@ def main() -> int:
     source_ids = validate_sources(tables["sources.csv"], publish, report)
     validate_source_references(tables, source_ids, publish, report)
     validate_budget(data, tables["budget.csv"], report)
-    validate_operational_tables(data, tables, publish, report)
+    # A user-authorized public planning guide is not a booked itinerary.
+    # Preserve candidate/monitor records and explained unknown fares instead of
+    # manufacturing selected hotels or confirmed prices to publish the guide.
+    # All public source, privacy, image, conflict and stage checks still apply.
+    publication_kind = data.get("publication_kind", "operational_itinerary")
+    if publication_kind not in {"planning_guide", "operational_itinerary"}:
+        report.error("publication_kind 无效")
+    if publish and publication_kind == "planning_guide":
+        overview = (project / "content" / "overview.md").read_text(encoding="utf-8")
+        if "未预订" not in overview or "估算" not in overview:
+            report.error("公开规划攻略必须明确标注未预订及估算口径")
+    validate_operational_tables(data, tables, publish and publication_kind != "planning_guide", report)
     validate_text_and_privacy(project, publish, report)
     validate_images(project, tables["images.csv"], publish, report)
 

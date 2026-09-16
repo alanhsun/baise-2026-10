@@ -313,7 +313,7 @@ def build_one(project: Path, output: Path, day_number: int, route: dict, styles)
                  Paragraph(inline_markup(title_parts[1]), styles["cover"])]
     else:
         story = [Spacer(1, 4 * mm), Paragraph(inline_markup(title), styles["cover"])]
-    story.append(Paragraph("2成人 + 1名8岁儿童 · 每晚2间房 · 当地打车", styles["cover_sub"]))
+    story.append(Paragraph("2成人 + 1名8岁儿童 · 每晚1间房 · 当地打车", styles["cover_sub"]))
     story.append(Paragraph("本页为离线备查。出现航变、预警、道路管制、景区公告或身体不适时，立即以安全和休息优先。", styles["callout"]))
     story.extend(route_flowables(route, styles))
     story.append(Spacer(1, 4 * mm))
