@@ -1,7 +1,7 @@
 segment_id,date,from,to,mode,depart_at,arrive_at,duration_minutes,buffer_minutes,planned_cost_cny,source_id,amap_url,baidu_url,status,notes
 D1-1,2026-10-01,南城住处,东莞西平西站,taxi,,,,,,,https://uri.amap.com/search?keyword=%E4%B8%9C%E8%8E%9E%E8%A5%BF%E5%B9%B3%E8%A5%BF%E7%AB%99&callnative=0,,candidate,出租车约20—40分钟
-D1-2,2026-10-01,东莞西平西站,番禺站 / 广州南站,rail,,,,,,,https://uri.amap.com/search?keyword=%E7%95%AA%E7%A6%BA%E7%AB%99%20/%20%E5%B9%BF%E5%B7%9E%E5%8D%97%E7%AB%99&callnative=0,,candidate,城际快慢车约30—70分钟另含候车
-D1-3,2026-10-01,番禺站 / 广州南站,百色站,rail,,,,,,,https://uri.amap.com/search?keyword=%E7%99%BE%E8%89%B2%E7%AB%99&callnative=0,,candidate,动车约5—6小时，票面优先
+D1-2,2026-10-01,东莞西平西站,番禺站 / 广州南站,rail,,,,,,R07,https://uri.amap.com/search?keyword=%E7%95%AA%E7%A6%BA%E7%AB%99%20/%20%E5%B9%BF%E5%B7%9E%E5%8D%97%E7%AB%99&callnative=0,,candidate,广东城际按当天可乘班次，三人80—100元每程估算；去程09:00前到番禺，回程15:26后预留转站
+D1-3,2026-10-01,番禺站 / 广州南站,百色站,rail,2026-10-01T10:32+08:00,2026-10-01T15:34+08:00,302,92,844,R02,https://uri.amap.com/search?keyword=%E7%99%BE%E8%89%B2%E7%AB%99&callnative=0,,candidate,主选D3830，二等座2成人1儿童；现行表，未出票，儿童为条件估算；备选D3842/D3782
 D1-4,2026-10-01,百色站,梦之源大酒店 百色,taxi,,,,,,,https://uri.amap.com/search?keyword=%E6%A2%A6%E4%B9%8B%E6%BA%90%E5%A4%A7%E9%85%92%E5%BA%97%20%E7%99%BE%E8%89%B2&callnative=0,,candidate,出租车含候车约30—60分钟
 D2-1,2026-10-02,梦之源大酒店 百色,浩坤湖 景区游客入口 凌云,taxi,,,,,,,https://uri.amap.com/search?keyword=%E6%B5%A9%E5%9D%A4%E6%B9%96%20%E6%99%AF%E5%8C%BA%E6%B8%B8%E5%AE%A2%E5%85%A5%E5%8F%A3%20%E5%87%8C%E4%BA%91&callnative=0,,candidate,预约车约1.5—2小时，实际入口待确认
 D2-2,2026-10-02,浩坤湖 景区游客入口 凌云,梦之源大酒店 百色,taxi,,,,,,,https://uri.amap.com/search?keyword=%E6%A2%A6%E4%B9%8B%E6%BA%90%E5%A4%A7%E9%85%92%E5%BA%97%20%E7%99%BE%E8%89%B2&callnative=0,,candidate,15:00预约接回，约1.5—2小时及路况弹性
@@ -12,6 +12,6 @@ D4-2,2026-10-04,鹅泉景区 靖西,维也纳国际酒店 靖西幸福路店,tax
 D5-1,2026-10-05,维也纳国际酒店 靖西幸福路店,梦之源大酒店 百色,taxi,,,,,,,https://uri.amap.com/search?keyword=%E6%A2%A6%E4%B9%8B%E6%BA%90%E5%A4%A7%E9%85%92%E5%BA%97%20%E7%99%BE%E8%89%B2&callnative=0,,candidate,跨城点到点预约，休息一次
 D5-2,2026-10-05,梦之源大酒店 百色,百色酒店附近餐饮,taxi,,,,,,,https://uri.amap.com/search?keyword=%E7%99%BE%E8%89%B2%E9%85%92%E5%BA%97%E9%99%84%E8%BF%91%E9%A4%90%E9%A5%AE&callnative=0,,candidate,短程按需，之后回同一酒店
 D6-1,2026-10-06,梦之源大酒店 百色,百色站,taxi,,,,,,,https://uri.amap.com/search?keyword=%E7%99%BE%E8%89%B2%E7%AB%99&callnative=0,,candidate,预约出租车约30—60分钟含余量
-D6-2,2026-10-06,百色站,广州南站 / 番禺站,rail,,,,,,,https://uri.amap.com/search?keyword=%E5%B9%BF%E5%B7%9E%E5%8D%97%E7%AB%99%20/%20%E7%95%AA%E7%A6%BA%E7%AB%99&callnative=0,,candidate,动车约5—6小时
-D6-3,2026-10-06,广州南站 / 番禺站,东莞西平西站,rail,,,,,,,https://uri.amap.com/search?keyword=%E4%B8%9C%E8%8E%9E%E8%A5%BF%E5%B9%B3%E8%A5%BF%E7%AB%99&callnative=0,,candidate,换乘与城际合计约1.5—2.5小时
+D6-2,2026-10-06,百色站,广州南站 / 番禺站,rail,2026-10-06T10:03+08:00,2026-10-06T15:26+08:00,323,93,844,R04,https://uri.amap.com/search?keyword=%E5%B9%BF%E5%B7%9E%E5%8D%97%E7%AB%99%20/%20%E7%95%AA%E7%A6%BA%E7%AB%99&callnative=0,,candidate,主选D3804，现行表；10/6开行9/22复核，未出票；备选D3792/D3812
+D6-3,2026-10-06,广州南站 / 番禺站,东莞西平西站,rail,,,,,,R07,https://uri.amap.com/search?keyword=%E4%B8%9C%E8%8E%9E%E8%A5%BF%E5%B9%B3%E8%A5%BF%E7%AB%99&callnative=0,,candidate,广东城际按当天可乘班次，三人80—100元每程估算；去程09:00前到番禺，回程15:26后预留转站
 D6-4,2026-10-06,东莞西平西站,南城住处,taxi,,,,,,,https://uri.amap.com/search?keyword=%E5%8D%97%E5%9F%8E%E4%BD%8F%E5%A4%84&callnative=0,,candidate,出租车约20—40分钟

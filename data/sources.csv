@@ -50,3 +50,11 @@ T08,commercial,百色起义纪念馆服务设施,https://you.ctrip.com/sight/bai
 K01,commercial,浩坤湖网站游览路线指引,https://haokunhu.com/tour-route-guide,,2026-09-17,2026-09-28,D2湖岸路线与山区交通,medium,景区主题网站原文已读；经营主体未进一步核验，不以此保证实时运营
 K02,commercial,浩坤湖页面与可见评论,https://gs.ctrip.com/html5/you/sight/lingyun1446254/5069278.html,,2026-09-17,2026-09-28,D2开放线索、停船冲突与道路经验,medium,显示游船停运；两条评论未显示日期；不沿用起价
 K03,official,浩坤湖部分船型运营报道,https://www.gxnews.com.cn/staticpages/20260817/newgx6a82bb57-21981929.shtml,2026-08-17,2026-09-17,2026-09-28,D2船务待复核,low,检索可见转述公告，正文抓取超时；与平台停船公告冲突，不作已确认运营
+R01,official,12306当前起售时间公告,https://www.12306.cn/mormhweb/mobile_zxdt/201411/t20141126_2316.html,,2026-09-17,2026-09-22,D1 D6铁路与购票,medium,广州南10:15、百色17:30；旧发布日期页面的当前正文，临时调整复核
+R02,commercial,D3830现行时刻,https://trains.ctrip.com/TrainSchedule/D3830,,2026-09-17,2026-09-22,D1 D6铁路与购票,medium,广州南10:32百色15:34，未核实指定日期开行
+R03,commercial,广州南百色现行票价与备选,https://trains.ctrip.com/trainbooking/guangzhounan-baise/,,2026-09-17,2026-09-22,D1 D6铁路与购票,medium,337.5成人二等座快照，非10/1订单价，不采用余票
+R04,commercial,D3804现行时刻,https://trains.ctrip.com/TrainSchedule/D3804,,2026-09-17,2026-09-22,D1 D6铁路与购票,medium,百色10:03广州南15:26，10/6待预售期复核
+R05,commercial,百色广州南现行票价与备选,https://trains.ctrip.com/trainbooking/baise-guangzhounan/,,2026-09-17,2026-09-22,D1 D6铁路与购票,medium,337.5成人二等座快照，非10/6报价
+R06,official,12306儿童优惠票与最低票价,https://kyfw.12306.cn/otn/gonggao/children.html,,2026-09-17,2026-09-22,D1 D6铁路与购票,medium,儿童约169仅条件性估算，系统金额为准
+R07,official,广东城际乘车指南,https://www.gz.gov.cn/zwfw/zxfw/jtfw/content/mpost_9674465.html,,2026-09-17,2026-09-22,D1 D6铁路与购票,medium,2024历史操作指南，儿童12306购票；当日规则再复核
+R08,official,12306候补规则,https://kyfw.12306.cn/otn/gonggao/alternate.html,,2026-09-17,2026-09-22,D1 D6铁路与购票,medium,同一需求不部分兑现；付款后生效；未替用户操作

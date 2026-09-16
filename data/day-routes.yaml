@@ -1,20 +1,20 @@
 routes:
 - day_id: day-01
   title: D1 当日路线
-  summary: 门到门约8—10小时，全部时刻为待购票目标
+  summary: 主选D3830 10:32→15:34；9/17 10:15起售，未出票
   note: 路线示意，不按地理比例；地图链接为名称检索，需确认实际入口和上下车点。时长为规划估算，不能替代票面或实时导航。
   stops:
   - label: 南城住处
-    detail: 07:10左右，按地址重算
+    detail: 06:30左右出门，按实际住址重算
     url: https://uri.amap.com/search?keyword=%E5%8D%97%E5%9F%8E%E4%BD%8F%E5%A4%84&callnative=0
   - label: 东莞西平西站
-    detail: 城际前往番禺
+    detail: 07:00左右到站；选09:00前到番禺的城际
     url: https://uri.amap.com/search?keyword=%E4%B8%9C%E8%8E%9E%E8%A5%BF%E5%B9%B3%E8%A5%BF%E7%AB%99&callnative=0
   - label: 番禺站 / 广州南站
-    detail: 预留90分钟换乘
+    detail: 09:00前抵达番禺，转站留92分钟
     url: https://uri.amap.com/search?keyword=%E7%95%AA%E7%A6%BA%E7%AB%99%20/%20%E5%B9%BF%E5%B7%9E%E5%8D%97%E7%AB%99&callnative=0
   - label: 百色站
-    detail: 目标15—16时抵达
+    detail: D3830现行15:34到站
     url: https://uri.amap.com/search?keyword=%E7%99%BE%E8%89%B2%E7%AB%99&callnative=0
   - label: 梦之源大酒店 百色
     detail: 候选酒店，16:30后休息
@@ -22,7 +22,7 @@ routes:
   segments:
   - 出租车约20—40分钟
   - 城际快慢车约30—70分钟另含候车
-  - 动车约5—6小时，票面优先
+  - 主选D3830 10:32—15:34，5小时02分，未出票
   - 出租车含候车约30—60分钟
 - day_id: day-02
   title: D2 当日路线
@@ -101,17 +101,17 @@ routes:
   - 短程按需，之后回同一酒店
 - day_id: day-06
   title: D6 当日路线
-  summary: 百色上午出发，傍晚到南城；票面确定后倒推
+  summary: 主选D3804 10:03→15:26；9/22 17:30开售时复核10/6
   note: 路线示意，不按地理比例；地图链接为名称检索，需确认实际入口和上下车点。时长为规划估算，不能替代票面或实时导航。
   stops:
   - label: 梦之源大酒店 百色
-    detail: 按发车前75—90分钟到站倒推
+    detail: 07:30左右出发，08:30前到站
     url: https://uri.amap.com/search?keyword=%E6%A2%A6%E4%B9%8B%E6%BA%90%E5%A4%A7%E9%85%92%E5%BA%97%20%E7%99%BE%E8%89%B2&callnative=0
   - label: 百色站
-    detail: 约10:30发车仅为示例
+    detail: D3804现行10:03开，提前93分钟到站
     url: https://uri.amap.com/search?keyword=%E7%99%BE%E8%89%B2%E7%AB%99&callnative=0
   - label: 广州南站 / 番禺站
-    detail: 出站换乘城际，不急跑
+    detail: 15:26到广州南，预留约1小时转番禺
     url: https://uri.amap.com/search?keyword=%E5%B9%BF%E5%B7%9E%E5%8D%97%E7%AB%99%20/%20%E7%95%AA%E7%A6%BA%E7%AB%99&callnative=0
   - label: 东莞西平西站
     detail: 按实际快慢车时间到达
@@ -121,6 +121,6 @@ routes:
     url: https://uri.amap.com/search?keyword=%E5%8D%97%E5%9F%8E%E4%BD%8F%E5%A4%84&callnative=0
   segments:
   - 预约出租车约30—60分钟含余量
-  - 动车约5—6小时
+  - 主选D3804 10:03—15:26，5小时23分，未出票
   - 换乘与城际合计约1.5—2.5小时
   - 出租车约20—40分钟
