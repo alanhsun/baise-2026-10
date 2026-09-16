@@ -2,7 +2,7 @@ schema_version: 1
 trip_id: baise-2026-10-taxi
 title: 百色·浩坤湖·靖西六日家庭旅行攻略
 timezone: Asia/Shanghai
-stage: approved
+stage: published
 publish: true
 publication_kind: planning_guide
 start_date: '2026-10-01'
