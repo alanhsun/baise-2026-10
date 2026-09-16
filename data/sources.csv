@@ -40,3 +40,13 @@ T04,commercial,百色温德姆度假酒店,https://hotels.ctrip.com/hotels/60196
 T05,commercial,维也纳国际酒店靖西幸福路店,https://hotels.ctrip.com/hotels/129067133.html,,2026-09-16,2026-09-28,靖西住宿候选,medium,原文已读；平台2025开业，早餐与儿童身高档要按订单复核
 T06,commercial,维也纳国际酒店靖西长丰国际店,https://hotels.ctrip.com/hotels/127425491.html,,2026-09-16,2026-09-28,靖西住宿备选,medium,原文已读；不能与长丰国际酒店混淆
 T07,commercial,百色出租车服务报道转载,https://finance.sina.com.cn/jjxw/2026-06-05/doc-iniakfhq8366182.shtml,2026-06-05,2026-09-16,2026-09-28,当地出租车,medium,右江日报经政府网转载；只佐证城区运营，送考政策不套用于国庆游客
+U11,community,鹅泉游客评论增补,https://you.ctrip.com/sight/jingxi967/51464.html,,2026-09-16,2026-09-28,D4竹筏与亲子观察,medium,已读可见2026年5至8月样本；主观体验不作统一定价；未遍历评论
+U12,community,旧州游客评论增补,https://you.ctrip.com/sight/jingxi967/69551024.html,,2026-09-16,2026-09-28,D4检票与手工体验,medium,已读2026年1月6日和5月27日等样本；旧夜间免票说法不采用
+U13,community,广西游记之百色起义纪念馆,https://you.ctrip.com/travels/baise524/4156599.html,2025-02-08,2026-09-16,2026-09-28,D2台阶与入口,medium,2024年11月1日到访；与U02及U03同作者；旧公交和房价不采用
+U14,community,广西山水行13寻迹百色,https://you.ctrip.com/travels/guangxi100052/4162724.html,2025-05-03,2026-09-16,2026-09-28,D2坡道与展线,medium,全文已读；文中3月21日到访；旧入馆登记规则不沿用
+U15,community,小飞大乡里游广西渠洋湖鹅泉,https://siufeikingdom.pixnet.net/blog/posts/9577726776,2025-04-27,2026-09-16,2026-09-28,D1入住检查与D3D4游览,medium,2025年4月20日团队行程；个人博客全文已读；不采用旧价或未证实的景区数据
+U16,community,百色有百味文明街食记,https://www.sohu.com/a/344653099_327884,,2026-09-16,2026-09-28,D2卷筒粉体验,low,2019年历史食记；仅食物形态与街区线索；不作营业存续依据
+T08,commercial,百色起义纪念馆服务设施,https://you.ctrip.com/sight/baise524/51452.html,,2026-09-16,2026-09-28,D2园内车与语音线索,medium,已读服务字段；以现场确认运营和可达路线为准；开放时间采用运营方公告
+K01,commercial,浩坤湖网站游览路线指引,https://haokunhu.com/tour-route-guide,,2026-09-17,2026-09-28,D2湖岸路线与山区交通,medium,景区主题网站原文已读；经营主体未进一步核验，不以此保证实时运营
+K02,commercial,浩坤湖页面与可见评论,https://gs.ctrip.com/html5/you/sight/lingyun1446254/5069278.html,,2026-09-17,2026-09-28,D2开放线索、停船冲突与道路经验,medium,显示游船停运；两条评论未显示日期；不沿用起价
+K03,official,浩坤湖部分船型运营报道,https://www.gxnews.com.cn/staticpages/20260817/newgx6a82bb57-21981929.shtml,2026-08-17,2026-09-17,2026-09-28,D2船务待复核,low,检索可见转述公告，正文抓取超时；与平台停船公告冲突，不作已确认运营

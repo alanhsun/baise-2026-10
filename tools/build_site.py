@@ -12,6 +12,7 @@ import sys
 from datetime import datetime
 from pathlib import Path
 from urllib.parse import urlparse
+from PIL import Image
 
 try:
     import markdown
@@ -47,6 +48,19 @@ def money(value: str | float | int | None) -> str:
     return f"¥{amount:,.0f}" if amount.is_integer() else f"¥{amount:,.2f}"
 
 
+def scenic_figure(match: re.Match) -> str:
+    tag = match.group(1)
+    source = re.search(r'src="([^"]+)"', tag)
+    dimensions = ''
+    if source:
+        path = Path(__file__).resolve().parents[1] / source.group(1)
+        if path.is_file():
+            with Image.open(path) as picture:
+                dimensions = f'width="{picture.width}" height="{picture.height}" '
+    tag = tag.replace('<img ', '<img loading="lazy" decoding="async" ' + dimensions)
+    return '<figure class="scenic-photo">' + tag + '<figcaption>' + match.group(2) + '</figcaption></figure>'
+
+
 def markdown_text_html(text: str) -> str:
     rendered = markdown.markdown(
         html.escape(text, quote=False),
@@ -55,6 +69,11 @@ def markdown_text_html(text: str) -> str:
     )
     # Markdown tables need their own scroll container on narrow screens; without
     # it, a wide itinerary table expands the entire page past the viewport.
+    rendered = re.sub(
+        r'<p>(<img[^>]+>)</p>\s*<p>(摄影：.*?)</p>',
+        scenic_figure,
+        rendered, flags=re.S,
+    )
     return rendered.replace("<table>", '<div class="table-wrap"><table>').replace(
         "</table>", "</table></div>"
     )
@@ -346,7 +365,7 @@ def main() -> int:
       <p class="eyebrow">{html.escape(destination_text)}</p>
       <h1>{html.escape(data.get('title', '行程'))}</h1>
       <p>{html.escape(str(data.get('start_date', '')))} — {html.escape(str(data.get('end_date', '')))}</p>
-      <p class="trip-meta">2成人＋8岁儿童＋68岁老人 · 每晚2间房 · 当地打车</p>
+      <p class="trip-meta">2成人＋1名8岁儿童 · 每晚2间房 · 当地打车</p>
       <p class="verified">详尽规划审核稿 · 未预订 · 本地预览 · 核验至：{html.escape(verified_display)}</p>
     </div>
   </header>
@@ -372,7 +391,7 @@ def main() -> int:
         <div><strong>{money(budget_remaining_low)}–{money(budget_remaining_high)}</strong><span>尚待支出</span></div>
         <div><strong>{money(budget_low)}–{money(budget_high)}</strong><span>当前总支出预测</span></div>
       </div>
-      <p class="budget-note">全家4人，5晚×2房共10间夜；均为规划估算，无已支付订单。备用金已包含，未包含可选游船和七天版新增费用。</p>
+      <p class="budget-note">全家3人，5晚×2房共10间夜；均为规划估算，无已支付订单。备用金已包含，门票体验按酌情选择一次水上项目预留，实际报价另核。</p>
       <details class="details-panel" open><summary>预算分类明细</summary>{budget_table}</details>
     </section>
   </main>

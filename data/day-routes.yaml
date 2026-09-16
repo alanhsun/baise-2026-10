@@ -26,88 +26,72 @@ routes:
   - 出租车含候车约30—60分钟
 - day_id: day-02
   title: D2 当日路线
-  summary: 4段城区出租车，中间回酒店午休
+  summary: 08时百色出发，15时从浩坤湖接回，同一酒店第2晚
   note: 路线示意，不按地理比例；地图链接为名称检索，需确认实际入口和上下车点。时长为规划估算，不能替代票面或实时导航。
   stops:
   - label: 梦之源大酒店 百色
-    detail: 08:20左右出发
+    detail: 08:00出发，大行李留房
     url: https://uri.amap.com/search?keyword=%E6%A2%A6%E4%B9%8B%E6%BA%90%E5%A4%A7%E9%85%92%E5%BA%97%20%E7%99%BE%E8%89%B2&callnative=0
-  - label: 百色起义纪念馆
-    detail: 09:00—10:45
-    url: https://uri.amap.com/search?keyword=%E7%99%BE%E8%89%B2%E8%B5%B7%E4%B9%89%E7%BA%AA%E5%BF%B5%E9%A6%86&callnative=0
+  - label: 浩坤湖 景区游客入口 凌云
+    detail: 10:00—15:00，午餐、湖岸与可选船
+    url: https://uri.amap.com/search?keyword=%E6%B5%A9%E5%9D%A4%E6%B9%96%20%E6%99%AF%E5%8C%BA%E6%B8%B8%E5%AE%A2%E5%85%A5%E5%8F%A3%20%E5%87%8C%E4%BA%91&callnative=0
   - label: 梦之源大酒店 百色
-    detail: 午餐、午休至14:30
-    url: https://uri.amap.com/search?keyword=%E6%A2%A6%E4%B9%8B%E6%BA%90%E5%A4%A7%E9%85%92%E5%BA%97%20%E7%99%BE%E8%89%B2&callnative=0
-  - label: 粤东会馆 百色
-    detail: 15:00—16:00
-    url: https://uri.amap.com/search?keyword=%E7%B2%A4%E4%B8%9C%E4%BC%9A%E9%A6%86%20%E7%99%BE%E8%89%B2&callnative=0
-  - label: 百色文明街
-    detail: 16:00短逛、晚饭
-    url: https://uri.amap.com/search?keyword=%E7%99%BE%E8%89%B2%E6%96%87%E6%98%8E%E8%A1%97&callnative=0
-  - label: 梦之源大酒店 百色
-    detail: 18:15前后回店
+    detail: 17:00左右回到酒店
     url: https://uri.amap.com/search?keyword=%E6%A2%A6%E4%B9%8B%E6%BA%90%E5%A4%A7%E9%85%92%E5%BA%97%20%E7%99%BE%E8%89%B2&callnative=0
   segments:
-  - 出租车含候车约20—40分钟
-  - 出租车约20—40分钟
-  - 出租车约20—30分钟
-  - 邻近街区步行，现场选平缓短线
-  - 出租车约20—30分钟
+  - 预约车约1.5—2小时，实际入口待确认
+  - 15:00预约接回，约1.5—2小时及路况弹性
 - day_id: day-03
   title: D3 当日路线
-  summary: 跨城预约车；渠洋湖只有接送落实才加入
+  summary: 渠洋湖为当日主要游览，傍晚到靖西
   note: 路线示意，不按地理比例；地图链接为名称检索，需确认实际入口和上下车点。时长为规划估算，不能替代票面或实时导航。
   stops:
   - label: 梦之源大酒店 百色
-    detail: 08:30上车，行李随行
+    detail: 08:30退房出发，行李随行
     url: https://uri.amap.com/search?keyword=%E6%A2%A6%E4%B9%8B%E6%BA%90%E5%A4%A7%E9%85%92%E5%BA%97%20%E7%99%BE%E8%89%B2&callnative=0
   - label: 渠洋湖 靖西
-    detail: 正式接待点先确认；候选坡谷汽车露营地
+    detail: 11:30午餐，13:00游览，15:00离开
     url: https://uri.amap.com/search?keyword=%E6%B8%A0%E6%B4%8B%E6%B9%96%20%E9%9D%96%E8%A5%BF&callnative=0
   - label: 维也纳国际酒店 靖西幸福路店
-    detail: 14:30左右入住；未游湖则提前到城
+    detail: 约17:00入住，两间房
     url: https://uri.amap.com/search?keyword=%E7%BB%B4%E4%B9%9F%E7%BA%B3%E5%9B%BD%E9%99%85%E9%85%92%E5%BA%97%20%E9%9D%96%E8%A5%BF%E5%B9%B8%E7%A6%8F%E8%B7%AF%E5%BA%97&callnative=0
   segments:
-  - 约2.5小时含休息；入口与路况待核
-  - 湖岸约1小时＋午餐1小时，再车程约1—1.5小时
+  - 约3小时含休息，实时导航复核
+  - 湖区约3小时含午餐，再预留约2小时到酒店
   branches:
   - after_stop: 1
-    title: 没有湖区后续车，直接靖西
+    title: 仅天气预警、停业或接续无车时兜底直达
     options:
     - label: 直达靖西酒店
       detail: 约3—4小时含休息；先吃午饭，按酒店规定入住
       url: https://uri.amap.com/search?keyword=%E7%BB%B4%E4%B9%9F%E7%BA%B3%E5%9B%BD%E9%99%85%E9%85%92%E5%BA%97%20%E9%9D%96%E8%A5%BF%E5%B9%B8%E7%A6%8F%E8%B7%AF%E5%BA%97&callnative=0
 - day_id: day-04
   title: D4 当日路线
-  summary: 三段车各自确认；午后旧州可取消
+  summary: 只游鹅泉，往返两程预约，下午回房
   note: 路线示意，不按地理比例；地图链接为名称检索，需确认实际入口和上下车点。时长为规划估算，不能替代票面或实时导航。
   stops:
   - label: 维也纳国际酒店 靖西幸福路店
-    detail: 07:45出发
+    detail: 08:00出发
     url: https://uri.amap.com/search?keyword=%E7%BB%B4%E4%B9%9F%E7%BA%B3%E5%9B%BD%E9%99%85%E9%85%92%E5%BA%97%20%E9%9D%96%E8%A5%BF%E5%B9%B8%E7%A6%8F%E8%B7%AF%E5%BA%97&callnative=0
   - label: 鹅泉景区 靖西
-    detail: 08:45短游，11:00午餐
+    detail: 09:00游览，11:30午餐，13:30回程
     url: https://uri.amap.com/search?keyword=%E9%B9%85%E6%B3%89%E6%99%AF%E5%8C%BA%20%E9%9D%96%E8%A5%BF&callnative=0
-  - label: 旧州景区 靖西
-    detail: 13:30短游；下车时拍回程上车点
-    url: https://uri.amap.com/search?keyword=%E6%97%A7%E5%B7%9E%E6%99%AF%E5%8C%BA%20%E9%9D%96%E8%A5%BF&callnative=0
   - label: 维也纳国际酒店 靖西幸福路店
-    detail: 16:00前后回店休息
+    detail: 约14:30回店休息
     url: https://uri.amap.com/search?keyword=%E7%BB%B4%E4%B9%9F%E7%BA%B3%E5%9B%BD%E9%99%85%E9%85%92%E5%BA%97%20%E9%9D%96%E8%A5%BF%E5%B9%B8%E7%A6%8F%E8%B7%AF%E5%BA%97&callnative=0
   segments:
-  - 车程与入口排队合计30—60分钟
-  - 预约车20—40分钟；不走路串两景区
-  - 预约车30—60分钟含候车余量
+  - 含候车与进村排队预留1小时
+  - 预约回程预留1小时，具体按路况
 - day_id: day-05
   title: D5 当日路线
   summary: 约150—180公里，3—4小时含休息；实时地图复核
   note: 路线示意，不按地理比例；地图链接为名称检索，需确认实际入口和上下车点。时长为规划估算，不能替代票面或实时导航。
   stops:
   - label: 维也纳国际酒店 靖西幸福路店
-    detail: 09:00前退房上车
+    detail: 上午休息，午饭后14:00出发
     url: https://uri.amap.com/search?keyword=%E7%BB%B4%E4%B9%9F%E7%BA%B3%E5%9B%BD%E9%99%85%E9%85%92%E5%BA%97%20%E9%9D%96%E8%A5%BF%E5%B9%B8%E7%A6%8F%E8%B7%AF%E5%BA%97&callnative=0
   - label: 梦之源大酒店 百色
-    detail: 12:30左右到，午餐、午休
+    detail: 17:30左右到店，休息后晚餐
     url: https://uri.amap.com/search?keyword=%E6%A2%A6%E4%B9%8B%E6%BA%90%E5%A4%A7%E9%85%92%E5%BA%97%20%E7%99%BE%E8%89%B2&callnative=0
   - label: 百色酒店附近餐饮
     detail: 自选短走或打车；当天不再去远景区

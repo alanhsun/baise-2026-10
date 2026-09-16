@@ -1,6 +1,8 @@
 # 百色靖西家庭打车攻略
 
-2026-10-01至06建议主线，4人，2间房/晚，详尽规划审核稿。
+2026-10-01至06建议主线，3人，2间房/晚，详尽规划审核稿。
+
+9月17日更新：三人六天山水路线；游客社区的接驳、检票、步行、点餐和入住经验；当前正文3张有明确CC许可的渠洋湖、鹅泉实拍照片（旧路线另5张仅素材留档），逐张标注作者与拍摄时间。照片包含历史影像，不能视作国庆实况。详见[图片署名](media/PHOTO-CREDITS.md)和[社区增补记录](research/community-additions-2026-09-16.md)。
 
 - 阅读：详尽攻略.md
 - [网页版文件](web/index.html)：下载仓库后打开此文件，配套图片和PDF已包含。
@@ -10,7 +12,7 @@
 - 权威正文：content/；结构事实：trip.yaml、data/；来源边界：research/
 
 所有班次、酒店和接送均未预订；publish=false，仅本地预览。
-构建：.venv/Scripts/python.exe tools/build_day_pdfs.py .，再执行 tools/build_site.py . --output dist。
+构建：先运行tools/sync_guide.py更新合并Markdown，再用.venv/Scripts/python.exe tools/build_day_pdfs.py .，最后执行tools/build_site.py . --output dist。
 校验：.venv/Scripts/python.exe tools/validate_trip.py .。
 
 GitHub仓库：https://github.com/alanhsun/baise-2026-10

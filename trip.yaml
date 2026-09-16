@@ -1,6 +1,6 @@
 schema_version: 1
 trip_id: baise-2026-10-taxi
-title: 百色与靖西六日家庭旅行攻略
+title: 百色·浩坤湖·靖西六日家庭旅行攻略
 timezone: Asia/Shanghai
 stage: detailed_review
 publish: false
@@ -13,15 +13,16 @@ entry_hub: 百色站
 exit_hub: 百色站
 destinations:
 - 百色
+- 凌云浩坤湖
 - 靖西
 party:
   adults: 2
   children: 1
-  seniors: 1
+  seniors: 0
 rooms: 2
 budget_cny:
-  low: 12200
-  high: 19600
+  low: 11750
+  high: 19400
 pace: relaxed
 lodging_requirements:
 - 每晚两间房，共10间夜
@@ -30,7 +31,10 @@ preferences:
 - 长途铁路优先
 - 当地出租车或正规平台预约接送
 - 轻松节奏、午间休息
-must_visit: []
+must_visit:
+- 浩坤湖
+- 渠洋湖
+- 鹅泉
 avoid:
 - 租车自驾
 - 未确认回程的偏远景点
@@ -38,6 +42,7 @@ avoid:
 constraints:
 - 准确班次与酒店均未预订
 - arrival_at和departure_at是时刻规划锚点，不是票面
-- 六天为建议主线；七天加通灵另列待选择方案
 - 各费用为研究估算，不是用户预算上限
-last_verified_at: 2026-09-16T12:00+08:00
+- 2026-09-17改为2成人1儿童，每晚两间房沿用原要求
+- D5下午返回百色，D6返程
+last_verified_at: 2026-09-17T12:00+08:00

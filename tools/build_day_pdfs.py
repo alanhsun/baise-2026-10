@@ -128,7 +128,7 @@ def image_flowable(project: Path, target: str, alt: str, styles: dict[str, Parag
         return [Paragraph(f"图片：{inline_markup(alt)}", styles["caption"])]
     with PILImage.open(source) as im:
         width, height = im.size
-    max_w, max_h = 176 * mm, 125 * mm
+    max_w, max_h = 176 * mm, (105 if source.suffix.lower() == '.jpg' else 125) * mm
     scale = min(max_w / width, max_h / height, 1.0)
     img = Image(str(source), width=width * scale, height=height * scale)
     img.hAlign = "CENTER"
@@ -176,8 +176,18 @@ def markdown_flowables(text: str, project: Path, styles: dict[str, ParagraphStyl
             continue
         image_match = re.fullmatch(r"!\[([^]]*)\]\(([^)]+)\)", line.strip())
         if image_match:
-            flow.extend(image_flowable(project, image_match.group(2), image_match.group(1), styles))
+            photo_group = image_flowable(project, image_match.group(2), image_match.group(1), styles)
             index += 1
+            lookahead = index
+            while lookahead < len(lines) and not lines[lookahead].strip():
+                lookahead += 1
+            if lookahead < len(lines) and lines[lookahead].startswith('摄影：'):
+                photo_group.append(Paragraph(inline_markup(lines[lookahead]), styles['caption']))
+                index = lookahead + 1
+            # A heading immediately before a photograph must travel with it.
+            if flow and isinstance(flow[-1], Paragraph) and flow[-1].style.name in {'h1', 'h2', 'h3'}:
+                photo_group.insert(0, flow.pop())
+            flow.append(KeepTogether(photo_group))
             continue
         heading = re.match(r"^(#{1,4})\s+(.+)$", line)
         if heading:
@@ -281,7 +291,7 @@ def footer(canvas, doc):
     canvas.line(14 * mm, 12 * mm, A4[0] - 14 * mm, 12 * mm)
     canvas.setFont("MSYH", 7)
     canvas.setFillColor(MUTED)
-    canvas.drawString(14 * mm, 7 * mm, "核验 2026-09-16 · 票面、官方公告与实时导航优先")
+    canvas.drawString(14 * mm, 7 * mm, "更新 2026-09-17 · 票面、官方公告与实时导航优先")
     canvas.drawRightString(A4[0] - 14 * mm, 7 * mm, f"第 {doc.page} 页")
 
 
@@ -303,7 +313,7 @@ def build_one(project: Path, output: Path, day_number: int, route: dict, styles)
                  Paragraph(inline_markup(title_parts[1]), styles["cover"])]
     else:
         story = [Spacer(1, 4 * mm), Paragraph(inline_markup(title), styles["cover"])]
-    story.append(Paragraph("2成人 + 8岁儿童 + 68岁老人 · 每晚2间房 · 当地打车", styles["cover_sub"]))
+    story.append(Paragraph("2成人 + 1名8岁儿童 · 每晚2间房 · 当地打车", styles["cover_sub"]))
     story.append(Paragraph("本页为离线备查。出现航变、预警、道路管制、景区公告或身体不适时，立即以安全和休息优先。", styles["callout"]))
     story.extend(route_flowables(route, styles))
     story.append(Spacer(1, 4 * mm))

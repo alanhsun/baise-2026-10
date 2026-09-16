@@ -162,6 +162,12 @@ main section > p > img {
   color: var(--accent-2);
   font-weight: 750;
 }
+
+.scenic-photo { max-width: 820px; margin: 1.5rem auto 1.8rem; }
+.scenic-photo img { display: block; width: auto; max-width: 100%; max-height: 640px; height: auto; margin: 0 auto .6rem; border-radius: .65rem; }
+.scenic-photo figcaption { color: #657168; font-size: .8rem; line-height: 1.8; overflow-wrap: anywhere; }
+.scenic-photo figcaption a { text-underline-offset: .15em; }
+@media (max-width: 600px) { .scenic-photo { margin: 1rem 0 1.3rem; } }
 .route-map[open] > .route-map-header { border-bottom: 1px solid #c8d4cc; }
 .route-map-header small { color: var(--muted); font-weight: 500; }
 .route-map-body { padding: .9rem 1rem 1rem; }
