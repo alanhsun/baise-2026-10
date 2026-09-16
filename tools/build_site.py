@@ -324,7 +324,7 @@ def main() -> int:
     }
     accommodation_labels = {
         "check_in": "入住", "check_out": "退房", "city": "区域",
-        "property": "酒店", "planned_low_cny": "本段两房预算低值", "planned_high_cny": "高值", "room_basis": "房型口径",
+        "property": "酒店", "planned_low_cny": "本段一房预算低值", "planned_high_cny": "高值", "room_basis": "房型口径",
     }
     booking_labels = {
         "item": "项目", "service_date": "使用日", "closes_at": "最晚处理",
@@ -365,8 +365,8 @@ def main() -> int:
       <p class="eyebrow">{html.escape(destination_text)}</p>
       <h1>{html.escape(data.get('title', '行程'))}</h1>
       <p>{html.escape(str(data.get('start_date', '')))} — {html.escape(str(data.get('end_date', '')))}</p>
-      <p class="trip-meta">2成人＋1名8岁儿童 · 每晚2间房 · 当地打车</p>
-      <p class="verified">详尽规划审核稿 · 未预订 · 本地预览 · 核验至：{html.escape(verified_display)}</p>
+      <p class="trip-meta">2成人＋1名8岁儿童 · 每晚1间房 · 当地打车</p>
+      <p class="verified">旅行规划攻略 · 交通住宿未预订 · 信息更新：{html.escape(verified_display)}</p>
     </div>
   </header>
   <nav class="nav" aria-label="页面导航">
@@ -391,7 +391,7 @@ def main() -> int:
         <div><strong>{money(budget_remaining_low)}–{money(budget_remaining_high)}</strong><span>尚待支出</span></div>
         <div><strong>{money(budget_low)}–{money(budget_high)}</strong><span>当前总支出预测</span></div>
       </div>
-      <p class="budget-note">全家3人，5晚×2房共10间夜；均为规划估算，无已支付订单。备用金已包含，门票体验按酌情选择一次水上项目预留，实际报价另核。</p>
+      <p class="budget-note">全家3人，5晚×1房共5间夜；均为规划估算，无已支付订单。备用金已包含，门票体验按酌情选择一次水上项目预留，实际报价另核。</p>
       <details class="details-panel" open><summary>预算分类明细</summary>{budget_table}</details>
     </section>
   </main>
