@@ -7,8 +7,8 @@ publish: true
 publication_kind: planning_guide
 start_date: '2026-10-01'
 end_date: '2026-10-06'
-arrival_at: 2026-10-01T15:30+08:00
-departure_at: 2026-10-06T10:30+08:00
+arrival_at: 2026-10-01T15:34+08:00
+departure_at: 2026-10-06T10:03+08:00
 origin: 东莞南城
 entry_hub: 百色站
 exit_hub: 百色站
@@ -23,13 +23,13 @@ party:
 rooms: 1
 budget_cny:
   low: 9500
-  high: 15400
+  high: 15100
 pace: relaxed
 lodging_requirements:
 - 每晚一间房，共5间夜
 - 电梯、安静、可方便打车到大堂
 preferences:
-- 长途铁路优先
+- 往返动车二等座：主选D3830去、D3804回
 - 当地出租车或正规平台预约接送
 - 轻松节奏、午间休息
 must_visit:
@@ -42,7 +42,7 @@ avoid:
 - 强制峡谷台阶行程
 constraints:
 - 准确班次与酒店均未预订
-- arrival_at和departure_at是时刻规划锚点，不是票面
+- arrival_at和departure_at按主选现行时刻表设置，未出票；返程10/6开行须9/22复核
 - 各费用为研究估算，不是用户预算上限
 - 2026-09-17改为2成人1儿童，每晚一间房沿用原要求
 - D5下午返回百色，D6返程
