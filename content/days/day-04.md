@@ -80,7 +80,25 @@
 
 摄影：Yumeto · 2026-02-12 · [照片来源](https://commons.wikimedia.org/wiki/File:20260212_E_Quan_%28103545%29.jpg) · [CC BY-SA 4.0](https://creativecommons.org/licenses/by-sa/4.0) · 未裁剪或改色。
 
-两张均是2026年2月的阴雾天气实拍。既能看到水色，也能看到游人、房屋和步道，适合建立现场预期；照片不代表国庆人流或水面一定呈现同样颜色。
+![鹅泉一级观景台方向全景 · 拍摄于2026-02-12](media/goose-spring-bridge.jpg)
+
+摄影：Yumeto · 2026-02-12 · [照片来源](https://commons.wikimedia.org/wiki/File:20260212_E_Quan_%28112500%29.jpg) · [CC BY-SA 4.0](https://creativecommons.org/licenses/by-sa/4.0) · 未裁剪或改色。这张图能直观看到泉池、步道、村落、田园与峰林的整体关系，也说明阴雾天的水色和远山不会像高饱和宣传图。
+
+![鹅泉泉边碑刻 · 拍摄于2026-02-12](media/goose-spring-stelae.jpg)
+
+摄影：Yumeto · 2026-02-12 · [照片来源](https://commons.wikimedia.org/wiki/File:20260212_Stelae_at_the_E_Quan.jpg) · [CC BY-SA 4.0](https://creativecommons.org/licenses/by-sa/4.0) · 未裁剪或改色。碑面风化、文字不易辨认，现场应看说明牌，不根据网络传说自行解读。
+
+四张均是2026年2月的阴雾天气实拍。既能看到水色，也能看到游人、房屋、步道、全景与碑刻，适合建立现场预期；照片不代表国庆人流或水面一定呈现同样颜色。
+
+**小红书看图入口：**[搜索“靖西鹅泉”图文笔记](https://www.xiaohongshu.com/search_result?keyword=%E9%9D%96%E8%A5%BF%E9%B9%85%E6%B3%89&type=51)。网页端要求登录后查看搜索结果，因此没有截取、下载或热链笔记图片。App内可重点比较“十五孔桥对岸”“泉池水草”“一级观景台”“阴天鹅泉”四组照片；加入“阴天”能减少只看到晨雾、夕阳和滤镜成片造成的预期偏差。
+
+## 英文社区视角：它不是强刺激景点，慢下来才成立
+
+- [Tripadvisor英文页面](https://www.tripadvisor.ca/Attraction_Review-g1575818-d27126448-Reviews-Goose_Spring-Jingxi_County_Guangxi.html)截至本次检索没有该新条目的英文评论，邻近旧条目也只有极少量历史样本。这说明不能用“国际平台高分”替鹅泉背书。
+- [英文Trip.com的一篇慢游体验](https://sa.trip.com/moments/detail/jingxi-967-150937837?locale=en-SA)提到出发前看到“半小时逛完、不值”的抱怨，实际体验却认为这里适合慢坐；作者建议竹筏后再步行并登观景台。其当地人套票与价格未经官方核验，本攻略不采用绕售票入口的方法。
+- [另一篇英文页面](https://hk.trip.com/moments/detail/jingxi-967-150606968?locale=en-HK)把最佳体验归纳为清晨薄雾、十五孔桥、观景台和田园，并提醒湿滑、防蚊、防晒及避免路边“免费入口”引导。其“早上免费”等说法未获官方确认，本家仍走正式入口。
+
+**不同视角带来的修正：**鹅泉不靠大型项目取胜。若只赶十五孔桥拍照，确实可能觉得半小时足够；本家把看水草、读碑刻、一级观景台和午餐坐休加入后，2.5小时才有意义。竹筏不是“正确答案”，天气、人流和儿童安全不合适就步行。
 
 
 ## 门票与体验
