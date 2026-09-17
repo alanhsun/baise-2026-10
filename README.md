@@ -11,7 +11,7 @@
 - 每日PDF：output/pdf/day-01-2026-10-01.pdf 至 day-06-2026-10-06.pdf
 - 权威正文：content/；结构事实：trip.yaml、data/；来源边界：research/
 
-所有班次、酒店和接送均未预订；公开的是planning_guide规划攻略。
+去程D3782已购；返程、酒店和接送均未预订。公开的是planning_guide规划攻略，不记录私人订单号或乘车人证件。
 构建：先运行tools/sync_guide.py更新合并Markdown，再用.venv/Scripts/python.exe tools/build_day_pdfs.py .，最后执行tools/build_site.py . --output dist。
 校验：.venv/Scripts/python.exe tools/validate_trip.py .。
 
