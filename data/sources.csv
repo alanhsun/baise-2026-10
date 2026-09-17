@@ -61,3 +61,9 @@ R08,official,12306候补规则,https://kyfw.12306.cn/otn/gonggao/alternate.html,
 H05,commercial,柏曼酒店百色靖西锦绣古镇店,https://hotels.ctrip.com/hotels/123698014.html,,2026-09-17,2026-09-28,靖西住宿候选,medium,原文与可见近期点评已读；有家庭房线索；古镇对面可能有夜间音乐，须选背街安静房；不采用默认日期价格
 H06,commercial,雅斯特美途酒店靖西银山颐园店,https://m.ctrip.com/webapp/hotel/jingxi21417/h758,,2026-09-17,2026-09-28,靖西住宿候选,low,页面可见家庭房洗衣与宽敞房间线索；当前证据较少；不采用默认日期价格
 U17,user,用户确认已购D3782,,2026-09-17,2026-09-17,,D1去程车票,high,仅记录车次日期与乘车区间；不记录订单号乘车人证件席位或支付信息
+E01,community,Reddit travelchina浩坤湖经历,https://www.reddit.com/r/travelchina/comments/1hpgo3z,2024-12-30,2026-09-17,,D2英文社区视角,low,单一英文帖子；提到民宿后另换交通到网红山顶及外国客住宿资格；不作为儿童难度或国庆运力证明
+E02,community,Tripadvisor浩坤湖英文评论,https://www.tripadvisor.com/Attraction_Review-g1833724-d1856318-Reviews-Haokun_Lake-Lingyun_County_Guangxi.html,2017-10-05,2026-09-17,,D2英文社区视角,low,仅1条2017评论；旧船务洗手间与小食摊信息不作2026运营事实
+E03,commercial,Trip.com浩坤湖英文页,https://www.trip.com/travel-guide/attraction/lingyun/haokun-lake-scenic-area-56807956?locale=en-US,,2026-09-17,2026-09-28,D2英文社区视角,low,含自动翻译与社区内容；只用于船岸视角和3至5小时线索；不采用野山免费路线
+E04,community,Trip.com渠洋湖英文慢游分享,https://qa.trip.com/moments/detail/jingxi-967-146952282?locale=en-QA,,2026-09-17,2026-09-28,D3英文社区视角,low,平台自动翻译社区内容；骑行与人少为个案；不作国庆路况承诺
+E05,community,Trip.com鹅泉英文慢游分享,https://sa.trip.com/moments/detail/jingxi-967-150937837?locale=en-SA,,2026-09-17,2026-09-28,D4英文社区视角,low,平台自动翻译社区内容；保留慢游与观景台观点；不采用非正式套票价格或绕入口方式
+E06,community,Trip.com鹅泉英文近期经验,https://hk.trip.com/moments/detail/jingxi-967-150606968?locale=en-HK,2026-08-15,2026-09-17,2026-09-28,D4英文社区视角,low,平台自动翻译社区内容；采用湿滑防蚊和正式入口核对项；不采用免费时段说法
