@@ -1,20 +1,20 @@
 routes:
 - day_id: day-01
   title: D1 当日路线
-  summary: 主选D3830 10:32→15:34；9/17 10:15起售，未出票
+  summary: 已购D3782，广州南09:43→百色14:53
   note: 路线示意，不按地理比例；地图链接为名称检索，需确认实际入口和上下车点。时长为规划估算，不能替代票面或实时导航。
   stops:
   - label: 南城住处
-    detail: 06:30左右出门，按实际住址重算
+    detail: 06:00左右出门，按实际住址重算
     url: https://uri.amap.com/search?keyword=%E5%8D%97%E5%9F%8E%E4%BD%8F%E5%A4%84&callnative=0
   - label: 东莞西平西站
-    detail: 07:00左右到站；选09:00前到番禺的城际
+    detail: 06:30左右到站；选08:00前到番禺的城际
     url: https://uri.amap.com/search?keyword=%E4%B8%9C%E8%8E%9E%E8%A5%BF%E5%B9%B3%E8%A5%BF%E7%AB%99&callnative=0
   - label: 番禺站 / 广州南站
-    detail: 09:00前抵达番禺，转站留92分钟
+    detail: 08:00前抵达番禺，转站留103分钟
     url: https://uri.amap.com/search?keyword=%E7%95%AA%E7%A6%BA%E7%AB%99%20/%20%E5%B9%BF%E5%B7%9E%E5%8D%97%E7%AB%99&callnative=0
   - label: 百色站
-    detail: D3830现行15:34到站
+    detail: 已购D3782，现行14:53到站
     url: https://uri.amap.com/search?keyword=%E7%99%BE%E8%89%B2%E7%AB%99&callnative=0
   - label: 梦之源大酒店 百色
     detail: 候选酒店，16:30后休息
@@ -22,7 +22,7 @@ routes:
   segments:
   - 出租车约20—40分钟
   - 城际快慢车约30—70分钟另含候车
-  - 主选D3830 10:32—15:34，5小时02分，未出票
+  - 已购D3782 09:43—14:53，5小时10分
   - 出租车含候车约30—60分钟
 - day_id: day-02
   title: D2 当日路线
@@ -52,9 +52,9 @@ routes:
   - label: 渠洋湖 靖西
     detail: 11:30午餐，13:00游览，15:00离开
     url: https://uri.amap.com/search?keyword=%E6%B8%A0%E6%B4%8B%E6%B9%96%20%E9%9D%96%E8%A5%BF&callnative=0
-  - label: 维也纳国际酒店 靖西幸福路店
-    detail: 约17:00入住，一间房
-    url: https://uri.amap.com/search?keyword=%E7%BB%B4%E4%B9%9F%E7%BA%B3%E5%9B%BD%E9%99%85%E9%85%92%E5%BA%97%20%E9%9D%96%E8%A5%BF%E5%B9%B8%E7%A6%8F%E8%B7%AF%E5%BA%97&callnative=0
+  - label: 柏曼酒店 靖西锦绣古镇店
+    detail: 首选候选；约17:00入住，一间房
+    url: https://uri.amap.com/search?keyword=%E6%9F%8F%E6%9B%BC%E9%85%92%E5%BA%97%20%E9%9D%96%E8%A5%BF%E9%94%A6%E7%BB%A3%E5%8F%A4%E9%95%87&callnative=0
   segments:
   - 约3小时含休息，实时导航复核
   - 湖区约3小时含午餐，再预留约2小时到酒店
@@ -64,21 +64,21 @@ routes:
     options:
     - label: 直达靖西酒店
       detail: 约3—4小时含休息；先吃午饭，按酒店规定入住
-      url: https://uri.amap.com/search?keyword=%E7%BB%B4%E4%B9%9F%E7%BA%B3%E5%9B%BD%E9%99%85%E9%85%92%E5%BA%97%20%E9%9D%96%E8%A5%BF%E5%B9%B8%E7%A6%8F%E8%B7%AF%E5%BA%97&callnative=0
+      url: https://uri.amap.com/search?keyword=%E6%9F%8F%E6%9B%BC%E9%85%92%E5%BA%97%20%E9%9D%96%E8%A5%BF%E9%94%A6%E7%BB%A3%E5%8F%A4%E9%95%87&callnative=0
 - day_id: day-04
   title: D4 当日路线
   summary: 只游鹅泉，往返两程预约，下午回房
   note: 路线示意，不按地理比例；地图链接为名称检索，需确认实际入口和上下车点。时长为规划估算，不能替代票面或实时导航。
   stops:
-  - label: 维也纳国际酒店 靖西幸福路店
+  - label: 柏曼酒店 靖西锦绣古镇店
     detail: 08:00出发
-    url: https://uri.amap.com/search?keyword=%E7%BB%B4%E4%B9%9F%E7%BA%B3%E5%9B%BD%E9%99%85%E9%85%92%E5%BA%97%20%E9%9D%96%E8%A5%BF%E5%B9%B8%E7%A6%8F%E8%B7%AF%E5%BA%97&callnative=0
+    url: https://uri.amap.com/search?keyword=%E6%9F%8F%E6%9B%BC%E9%85%92%E5%BA%97%20%E9%9D%96%E8%A5%BF%E9%94%A6%E7%BB%A3%E5%8F%A4%E9%95%87&callnative=0
   - label: 鹅泉景区 靖西
     detail: 09:00游览，11:30午餐，13:30回程
     url: https://uri.amap.com/search?keyword=%E9%B9%85%E6%B3%89%E6%99%AF%E5%8C%BA%20%E9%9D%96%E8%A5%BF&callnative=0
-  - label: 维也纳国际酒店 靖西幸福路店
+  - label: 柏曼酒店 靖西锦绣古镇店
     detail: 约14:30回店休息
-    url: https://uri.amap.com/search?keyword=%E7%BB%B4%E4%B9%9F%E7%BA%B3%E5%9B%BD%E9%99%85%E9%85%92%E5%BA%97%20%E9%9D%96%E8%A5%BF%E5%B9%B8%E7%A6%8F%E8%B7%AF%E5%BA%97&callnative=0
+    url: https://uri.amap.com/search?keyword=%E6%9F%8F%E6%9B%BC%E9%85%92%E5%BA%97%20%E9%9D%96%E8%A5%BF%E9%94%A6%E7%BB%A3%E5%8F%A4%E9%95%87&callnative=0
   segments:
   - 含候车与进村排队预留1小时
   - 预约回程预留1小时，具体按路况
@@ -87,9 +87,9 @@ routes:
   summary: 约150—180公里，3—4小时含休息；实时地图复核
   note: 路线示意，不按地理比例；地图链接为名称检索，需确认实际入口和上下车点。时长为规划估算，不能替代票面或实时导航。
   stops:
-  - label: 维也纳国际酒店 靖西幸福路店
+  - label: 柏曼酒店 靖西锦绣古镇店
     detail: 上午休息，午饭后14:00出发
-    url: https://uri.amap.com/search?keyword=%E7%BB%B4%E4%B9%9F%E7%BA%B3%E5%9B%BD%E9%99%85%E9%85%92%E5%BA%97%20%E9%9D%96%E8%A5%BF%E5%B9%B8%E7%A6%8F%E8%B7%AF%E5%BA%97&callnative=0
+    url: https://uri.amap.com/search?keyword=%E6%9F%8F%E6%9B%BC%E9%85%92%E5%BA%97%20%E9%9D%96%E8%A5%BF%E9%94%A6%E7%BB%A3%E5%8F%A4%E9%95%87&callnative=0
   - label: 梦之源大酒店 百色
     detail: 17:30左右到店，休息后晚餐
     url: https://uri.amap.com/search?keyword=%E6%A2%A6%E4%B9%8B%E6%BA%90%E5%A4%A7%E9%85%92%E5%BA%97%20%E7%99%BE%E8%89%B2&callnative=0

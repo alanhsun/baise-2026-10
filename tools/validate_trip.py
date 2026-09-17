@@ -223,7 +223,11 @@ def validate_sources(rows: list[dict[str, str]], publish: bool, report: Report) 
         if row["source_type"] not in {"official", "commercial", "community", "user"}:
             report.error(f"sources.csv {source_id} 的 source_type 无效")
         parsed = urlparse(row["url"])
-        if parsed.scheme not in {"http", "https"} or not parsed.netloc:
+        if row["source_type"] == "user" and not row["url"].strip():
+            # User-confirmed bookings are valid primary evidence but have no
+            # public URL; private order links and identifiers must not leak.
+            pass
+        elif parsed.scheme not in {"http", "https"} or not parsed.netloc:
             report.error(f"sources.csv {source_id} 的 URL 无效")
         if not row["verified_at"].strip():
             report.error(f"sources.csv {source_id} 缺少 verified_at")

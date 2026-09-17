@@ -58,3 +58,6 @@ R05,commercial,百色广州南现行票价与备选,https://trains.ctrip.com/tra
 R06,official,12306儿童优惠票与最低票价,https://kyfw.12306.cn/otn/gonggao/children.html,,2026-09-17,2026-09-22,D1 D6铁路与购票,medium,儿童约169仅条件性估算，系统金额为准
 R07,official,广东城际乘车指南,https://www.gz.gov.cn/zwfw/zxfw/jtfw/content/mpost_9674465.html,,2026-09-17,2026-09-22,D1 D6铁路与购票,medium,2024历史操作指南，儿童12306购票；当日规则再复核
 R08,official,12306候补规则,https://kyfw.12306.cn/otn/gonggao/alternate.html,,2026-09-17,2026-09-22,D1 D6铁路与购票,medium,同一需求不部分兑现；付款后生效；未替用户操作
+H05,commercial,柏曼酒店百色靖西锦绣古镇店,https://hotels.ctrip.com/hotels/123698014.html,,2026-09-17,2026-09-28,靖西住宿候选,medium,原文与可见近期点评已读；有家庭房线索；古镇对面可能有夜间音乐，须选背街安静房；不采用默认日期价格
+H06,commercial,雅斯特美途酒店靖西银山颐园店,https://m.ctrip.com/webapp/hotel/jingxi21417/h758,,2026-09-17,2026-09-28,靖西住宿候选,low,页面可见家庭房洗衣与宽敞房间线索；当前证据较少；不采用默认日期价格
+U17,user,用户确认已购D3782,,2026-09-17,2026-09-17,,D1去程车票,high,仅记录车次日期与乘车区间；不记录订单号乘车人证件席位或支付信息
