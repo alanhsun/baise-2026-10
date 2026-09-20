@@ -96,7 +96,7 @@ routes:
   - label: 南宁站
     detail: 参考17:05到；不要与南宁东站混淆
     url: https://uri.amap.com/search?keyword=%E5%8D%97%E5%AE%81%E7%AB%99&callnative=0
-  - label: 南宁东站/凤岭酒店
+  - label: 南宁东站南广场酒店
     detail: 晚高峰打车入住，一间房
     url: https://uri.amap.com/search?keyword=%E5%8D%97%E5%AE%81%E4%B8%9C%E7%AB%99%20%E9%85%92%E5%BA%97&callnative=0
   segments:
@@ -108,7 +108,7 @@ routes:
   summary: 主选D3619南宁东09:24→广州南12:47；9/22 15:15抢票
   note: 时刻为非指定日期参考，以10月6日票面为准；广州南转番禺留足步行和候车。
   stops:
-  - label: 南宁东站/凤岭酒店
+  - label: 南宁东站南广场酒店
     detail: 约07:15退房出发
     url: https://uri.amap.com/search?keyword=%E5%8D%97%E5%AE%81%E4%B8%9C%E7%AB%99%20%E9%85%92%E5%BA%97&callnative=0
   - label: 南宁东站
