@@ -71,3 +71,13 @@ K04,commercial,浩坤湖运营方景色分类图库,https://haokunhu.com/scenery
 K05,official,新华社英文浩坤湖图文,https://www.xinhuanet.com/english/2019-11/26/c_138584494.htm,2019-11-26,2026-09-17,,D2湖上历史画面,medium,2019年纪实照片用于理解湖上视角；不据旧图推断2026年国庆船务；未复制图片
 K06,community,Trip.com浩坤湖湖岸短线实拍,https://nz.trip.com/moments/detail/lingyun-1446254-147254290?locale=en-NZ,,2026-09-17,2026-09-28,D2湖岸照片参考,low,社区原页含湖边栈道廊桥与倒影；许可未核验；仅链接原页且不采用实时开放描述
 K07,community,Trip.com浩坤湖山顶机位实拍,https://sg.trip.com/moments/detail/lingyun-1446254-145452959,,2026-09-17,2026-09-28,D2山顶照片与路线风险辨认,low,社区原页含碎石坡岩台与高位全景；不作为儿童路线推荐；许可未核验；仅链接原页
+F07,commercial,高德百色市美食榜,https://www.amap.com/ranking/baise/food,,2026-09-19,2026-09-28,D1 D2 D3 D4 D5城市餐厅候选,medium,可见桂小厨梁氏炖品八方火焰鹅等入榜；榜单为筛选线索不代表免排队或儿童适口
+F08,commercial,高德桂小厨百色梦之岛店,https://www.amap.com/place/B0FFLP3184,,2026-09-19,2026-09-28,D1 D5百色晚餐,medium,地址为梦之岛购物广场4层；用户评价样本旧；营业时间另以携程当期页交叉
+F09,community,小红书百色右江区本地菜馆排行榜及评论,https://www.xiaohongshu.com/explore/6a6429ce00000000010023ff,2026-07-25,2026-09-19,,D1百色餐厅交叉验证,low,正文推荐壮家人前进店；评论区多人质疑榜单且有停业线索；不采用排行榜结论
+F10,community,小红书靖西美食推荐与不推荐游客角度,https://www.xiaohongshu.com/explore/6a76e503000000003301e138,2026-08-08,2026-09-19,,D4 D5靖西小吃,low,推荐德保响水猪血肠并称张记米饺可试；不同评论对具体猪血肠店有分歧；单篇体验
+F11,community,小红书靖西餐厅饭馆合集,https://www.xiaohongshu.com/explore/6a71f03100000000220145a9,2026-08-04,2026-09-19,,D3 D4靖西晚餐,low,单篇个人合集；经典咖啡虾粥与番茄炒蛋可作清淡候选；地图与营业仍需复核
+F12,commercial,浩坤湖邻湖有间民宿住客餐饮评论,https://tw.trip.com/hotels/lingyun-hotel-detail-116953745/hao-kun-hu-lin-hu-you-jian-min-su/,,2026-09-19,2026-09-28,D2浩坤湖午餐线索,low,2026住客提到小湖虾青菜柠檬鸭等；住宿评论不能保证非住客接待和国庆营业
+F13,commercial,Trip.com渠洋湖周边餐厅列表,https://hk.trip.com/travel-guide/attraction/jingxi/quyang-lake-22881801,,2026-09-19,2026-09-28,D3渠洋湖午餐线索,low,列出银龙农家乐等及距离；不同语言页距离有差异且缺少近期全文点评；必须电话与司机确认
+F14,commercial,高德壮家菜与桂小厨交叉餐厅页,https://www.amap.com/ranking/baise,,2026-09-19,2026-09-28,D1 D5百色城市晚餐,medium,百色榜单与门店地址用于候选筛选；不把平台文案当独立食评
+F15,commercial,山水人家食庄鹅泉店近期点评,https://you.ctrip.com/food/967/17506620.html,2026-09-07,2026-09-19,2026-09-28,D4鹅泉午餐,medium,页面现有7条点评含2026-09-07新评；其余多为历史样本；国庆座位与菜单仍需确认
+F16,community,大众点评内容转载的百色小吃专题,https://fashion.sina.cn/l/ds/2024-01-22/detail-inaczqyh0859190.d.html,2024-01-22,2026-09-19,,D2文明街卷粉,low,引用大众点评用户内容介绍三和卷粉形态与文明街位置；非近期营业证据且旧价不沿用
