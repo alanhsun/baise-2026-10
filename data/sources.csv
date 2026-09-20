@@ -89,3 +89,6 @@ H08,commercial,城市便捷酒店南宁东站南广场店,https://hotels.ctrip.c
 H09,commercial,吉瑞酒店南宁火车东站南广场店,https://hotels.ctrip.com/hotels/68221765.html,,2026-09-21,2026-09-28,D5南宁住宿候选,medium,平台标注南宁东站约640米并有三床家庭评论线索；评论不保证指定日期房型库存
 F17,commercial,桂小厨广西菜南宁万象城店,https://gs.ctrip.com/html5/you/foods/nanning166/5451243.html,,2026-09-20,2026-09-28,D5南宁晚餐,medium,页面显示万象城L4营业时间宝宝椅及菜品；国庆等位和实际营业待现场核实
 F18,commercial,高德南宁市美食榜,https://www.amap.com/ranking/nanning,,2026-09-20,2026-09-28,D5南宁晚餐筛选,medium,榜单用于筛选柠檬鸭等本地餐厅；热度不等于儿童适口或无需排队
+
+R12,official,12306指定日期余票查询,https://kyfw.12306.cn/otn/leftTicket/init,,2026-09-21,2026-09-22,D5靖西至南宁铁路,high,本次查询未返回10月5日靖西至南宁可购结果；仍需在12306 App复核，商业缓存不能作为票面
+R13,commercial,靖西至南宁公路距离参考,https://www.modiauto.com.cn/luxian/add8176fad9bb342.html,,2026-09-21,2026-09-28,D5公路兜底,low,公开路线页约276公里正常约3.2小时；国庆门到门按4.5至5.5小时规划并以实时导航和书面报价为准

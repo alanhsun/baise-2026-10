@@ -84,25 +84,25 @@ routes:
   - 预约回程预留1小时，具体按路况
 - day_id: day-05
   title: D5 当日路线
-  summary: 主选K9306靖西约13:32→南宁约17:05；票面待核
-  note: 公开时刻存在冲突，以10月5日12306票面为准；路线示意不按地理比例。
+  summary: 靖西转场南宁；铁路有票执行，否则公路直达
+  note: 9月22日12:00为内部决策截止；路线示意不按地理比例。
   stops:
   - label: 靖西酒店
-    detail: 上午休息，按票面倒推退房和午餐
+    detail: 核对12306票面或公路车辆确认单
     url: https://uri.amap.com/search?keyword=%E9%9D%96%E8%A5%BF%E9%85%92%E5%BA%97&callnative=0
-  - label: 靖西站
-    detail: 发车前60分钟到站；主选K9306
+  - label: 靖西站（铁路条件方案）
+    detail: 仅在三人可购票面确认后前往
     url: https://uri.amap.com/search?keyword=%E9%9D%96%E8%A5%BF%E7%AB%99&callnative=0
-  - label: 南宁站
-    detail: 参考17:05到；不要与南宁东站混淆
-    url: https://uri.amap.com/search?keyword=%E5%8D%97%E5%AE%81%E7%AB%99&callnative=0
+  - label: 南宁站／南宁东站
+    detail: 按订单终到站执行，不混淆站名
+    url: https://uri.amap.com/search?keyword=%E5%8D%97%E5%AE%81%E4%B8%9C%E7%AB%99&callnative=0
   - label: 南宁东站南广场酒店
-    detail: 晚高峰打车入住，一间房
+    detail: 公路方案直接送达；铁路到南宁站后打车
     url: https://uri.amap.com/search?keyword=%E5%8D%97%E5%AE%81%E4%B8%9C%E7%AB%99%20%E9%85%92%E5%BA%97&callnative=0
   segments:
-  - 预约车约20—40分钟
-  - K9306参考约3小时33分，时刻待核
-  - 南宁晚高峰打车约30—60分钟
+  - 铁路按12306订单票面执行
+  - 公路约276公里，国庆按4.5—5.5小时门到门
+  - 若到南宁站，晚高峰转酒店约45—75分钟
 - day_id: day-06
   title: D6 当日路线
   summary: 主选D3619南宁东09:24→广州南12:47；9/22 15:15抢票
