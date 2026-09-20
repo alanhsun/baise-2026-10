@@ -23,8 +23,8 @@ party:
   seniors: 0
 rooms: 1
 budget_cny:
-  low: 9200
-  high: 15900
+  low: 9300
+  high: 14650
 pace: relaxed
 lodging_requirements:
 - 每晚一间房，共5间夜
@@ -47,4 +47,4 @@ constraints:
 - 各费用为研究估算，不是用户预算上限
 - 2026-09-17改为2成人1儿童，每晚一间房沿用原要求
 - D5靖西转场到南宁住宿，铁路无可购票面则公路直达；D6从南宁东返广州/东莞
-last_verified_at: 2026-09-21T18:00+08:00
+last_verified_at: 2026-09-21T22:00+08:00

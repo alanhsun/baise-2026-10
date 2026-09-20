@@ -92,3 +92,6 @@ F18,commercial,高德南宁市美食榜,https://www.amap.com/ranking/nanning,,20
 
 R12,official,12306指定日期余票查询,https://kyfw.12306.cn/otn/leftTicket/init,,2026-09-21,2026-09-22,D5靖西至南宁铁路,high,本次查询未返回10月5日靖西至南宁可购结果；仍需在12306 App复核，商业缓存不能作为票面
 R13,commercial,靖西至南宁公路距离参考,https://www.modiauto.com.cn/luxian/add8176fad9bb342.html,,2026-09-21,2026-09-28,D5公路兜底,low,公开路线页约276公里正常约3.2小时；国庆门到门按4.5至5.5小时规划并以实时导航和书面报价为准
+
+H10,commercial,Trip.com三城指定日期住宿报价快照,https://hk.trip.com/hotels/list?city=1140&checkin=2026-10-01&checkout=2026-10-03&adult=2&children=1&crn=1&curr=CNY,,2026-09-21,2026-09-22,住宿预算,medium,百色两晚页面含税738至1376元；靖西两晚847至2026元；南宁东站一晚236至546元；最低价多为基础房型，最终须核验8岁儿童和床型
+P01,commercial,三景点OTA公开票价快照,https://touch.piao.qunar.com/touch/detail.htm?id=474328,,2026-09-21,2026-09-28,门票预算,medium,浩坤湖成人58学生30景交36游船成人96；渠洋湖2大1小游船162；鹅泉公开成人约48儿童约20，使用日复核
