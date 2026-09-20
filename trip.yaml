@@ -1,6 +1,6 @@
 schema_version: 1
 trip_id: baise-2026-10-taxi
-title: 百色·浩坤湖·靖西六日家庭旅行攻略
+title: 百色·浩坤湖·靖西·南宁六日家庭旅行攻略
 timezone: Asia/Shanghai
 stage: published
 publish: true
@@ -8,28 +8,29 @@ publication_kind: planning_guide
 start_date: '2026-10-01'
 end_date: '2026-10-06'
 arrival_at: 2026-10-01T14:53+08:00
-departure_at: 2026-10-06T10:03+08:00
+departure_at: 2026-10-06T09:24+08:00
 origin: 东莞南城
 entry_hub: 百色站
-exit_hub: 百色站
+exit_hub: 南宁东站
 destinations:
 - 百色
 - 凌云浩坤湖
 - 靖西
+- 南宁
 party:
   adults: 2
   children: 1
   seniors: 0
 rooms: 1
 budget_cny:
-  low: 9500
-  high: 15100
+  low: 9200
+  high: 14600
 pace: relaxed
 lodging_requirements:
 - 每晚一间房，共5间夜
 - 电梯、安静、可方便打车到大堂
 preferences:
-- 去程D3782广州南至百色已购；返程主选D3804待购
+- 去程D3782广州南至百色已购；D5主选K9306到南宁、D6主选D3619返粤，均待购
 - 当地出租车或正规平台预约接送
 - 轻松节奏、午间休息
 must_visit:
@@ -42,8 +43,8 @@ avoid:
 - 强制峡谷台阶行程
 constraints:
 - 去程D3782已购，席别与实付金额未写入攻略；酒店和返程票尚未预订
-- arrival_at按已购D3782现行时刻设置；返程10/6开行与时刻仍须9/22复核
+- arrival_at按已购D3782现行时刻设置；K9306公开时刻有冲突，D5与D6均须按12306票面复核
 - 各费用为研究估算，不是用户预算上限
 - 2026-09-17改为2成人1儿童，每晚一间房沿用原要求
-- D5下午返回百色，D6返程
-last_verified_at: 2026-09-19T18:00+08:00
+- D5靖西乘火车到南宁并住宿，D6从南宁东返广州/东莞
+last_verified_at: 2026-09-20T12:00+08:00

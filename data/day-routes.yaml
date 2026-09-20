@@ -84,43 +84,47 @@ routes:
   - 预约回程预留1小时，具体按路况
 - day_id: day-05
   title: D5 当日路线
-  summary: 约150—180公里，3—4小时含休息；实时地图复核
-  note: 路线示意，不按地理比例；地图链接为名称检索，需确认实际入口和上下车点。时长为规划估算，不能替代票面或实时导航。
+  summary: 主选K9306靖西约13:32→南宁约17:05；票面待核
+  note: 公开时刻存在冲突，以10月5日12306票面为准；路线示意不按地理比例。
   stops:
-  - label: 柏曼酒店 靖西锦绣古镇店
-    detail: 上午休息，午饭后14:00出发
-    url: https://uri.amap.com/search?keyword=%E6%9F%8F%E6%9B%BC%E9%85%92%E5%BA%97%20%E9%9D%96%E8%A5%BF%E9%94%A6%E7%BB%A3%E5%8F%A4%E9%95%87&callnative=0
-  - label: 梦之源大酒店 百色
-    detail: 17:30左右到店，休息后晚餐
-    url: https://uri.amap.com/search?keyword=%E6%A2%A6%E4%B9%8B%E6%BA%90%E5%A4%A7%E9%85%92%E5%BA%97%20%E7%99%BE%E8%89%B2&callnative=0
-  - label: 百色酒店附近餐饮
-    detail: 自选短走或打车；当天不再去远景区
-    url: https://uri.amap.com/search?keyword=%E7%99%BE%E8%89%B2%E9%85%92%E5%BA%97%E9%99%84%E8%BF%91%E9%A4%90%E9%A5%AE&callnative=0
+  - label: 靖西酒店
+    detail: 上午休息，按票面倒推退房和午餐
+    url: https://uri.amap.com/search?keyword=%E9%9D%96%E8%A5%BF%E9%85%92%E5%BA%97&callnative=0
+  - label: 靖西站
+    detail: 发车前60分钟到站；主选K9306
+    url: https://uri.amap.com/search?keyword=%E9%9D%96%E8%A5%BF%E7%AB%99&callnative=0
+  - label: 南宁站
+    detail: 参考17:05到；不要与南宁东站混淆
+    url: https://uri.amap.com/search?keyword=%E5%8D%97%E5%AE%81%E7%AB%99&callnative=0
+  - label: 南宁东站/凤岭酒店
+    detail: 晚高峰打车入住，一间房
+    url: https://uri.amap.com/search?keyword=%E5%8D%97%E5%AE%81%E4%B8%9C%E7%AB%99%20%E9%85%92%E5%BA%97&callnative=0
   segments:
-  - 跨城点到点预约，休息一次
-  - 短程按需，之后回同一酒店
+  - 预约车约20—40分钟
+  - K9306参考约3小时33分，时刻待核
+  - 南宁晚高峰打车约30—60分钟
 - day_id: day-06
   title: D6 当日路线
-  summary: 主选D3804 10:03→15:26；9/22 17:30开售时复核10/6
-  note: 路线示意，不按地理比例；地图链接为名称检索，需确认实际入口和上下车点。时长为规划估算，不能替代票面或实时导航。
+  summary: 主选D3619南宁东09:24→广州南12:47；9/22 15:15抢票
+  note: 时刻为非指定日期参考，以10月6日票面为准；广州南转番禺留足步行和候车。
   stops:
-  - label: 梦之源大酒店 百色
-    detail: 07:30左右出发，08:30前到站
-    url: https://uri.amap.com/search?keyword=%E6%A2%A6%E4%B9%8B%E6%BA%90%E5%A4%A7%E9%85%92%E5%BA%97%20%E7%99%BE%E8%89%B2&callnative=0
-  - label: 百色站
-    detail: D3804现行10:03开，提前93分钟到站
-    url: https://uri.amap.com/search?keyword=%E7%99%BE%E8%89%B2%E7%AB%99&callnative=0
-  - label: 广州南站 / 番禺站
-    detail: 15:26到广州南，预留约1小时转番禺
+  - label: 南宁东站/凤岭酒店
+    detail: 约07:15退房出发
+    url: https://uri.amap.com/search?keyword=%E5%8D%97%E5%AE%81%E4%B8%9C%E7%AB%99%20%E9%85%92%E5%BA%97&callnative=0
+  - label: 南宁东站
+    detail: 主选D3619，09:24参考发车
+    url: https://uri.amap.com/search?keyword=%E5%8D%97%E5%AE%81%E4%B8%9C%E7%AB%99&callnative=0
+  - label: 广州南站/番禺站
+    detail: 12:47参考到站；转城际至少留45—60分钟
     url: https://uri.amap.com/search?keyword=%E5%B9%BF%E5%B7%9E%E5%8D%97%E7%AB%99%20/%20%E7%95%AA%E7%A6%BA%E7%AB%99&callnative=0
   - label: 东莞西平西站
-    detail: 按实际快慢车时间到达
+    detail: 按实际城际班次到达
     url: https://uri.amap.com/search?keyword=%E4%B8%9C%E8%8E%9E%E8%A5%BF%E5%B9%B3%E8%A5%BF%E7%AB%99&callnative=0
   - label: 南城住处
     detail: 打车到家，无第6晚酒店
     url: https://uri.amap.com/search?keyword=%E5%8D%97%E5%9F%8E%E4%BD%8F%E5%A4%84&callnative=0
   segments:
-  - 预约出租车约30—60分钟含余量
-  - 主选D3804 10:03—15:26，5小时23分，未出票
-  - 换乘与城际合计约1.5—2.5小时
+  - 短程送站约20—40分钟
+  - D3619参考09:24—12:47，约3小时23分
+  - 换乘与城际约1.5—2.5小时
   - 出租车约20—40分钟
