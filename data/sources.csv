@@ -81,3 +81,11 @@ F13,commercial,Trip.com渠洋湖周边餐厅列表,https://hk.trip.com/travel-gu
 F14,commercial,高德壮家菜与桂小厨交叉餐厅页,https://www.amap.com/ranking/baise,,2026-09-19,2026-09-28,D1 D5百色城市晚餐,medium,百色榜单与门店地址用于候选筛选；不把平台文案当独立食评
 F15,commercial,山水人家食庄鹅泉店近期点评,https://you.ctrip.com/food/967/17506620.html,2026-09-07,2026-09-19,2026-09-28,D4鹅泉午餐,medium,页面现有7条点评含2026-09-07新评；其余多为历史样本；国庆座位与菜单仍需确认
 F16,community,大众点评内容转载的百色小吃专题,https://fashion.sina.cn/l/ds/2024-01-22/detail-inaczqyh0859190.d.html,2024-01-22,2026-09-19,,D2文明街卷粉,low,引用大众点评用户内容介绍三和卷粉形态与文明街位置；非近期营业证据且旧价不沿用
+R09,commercial,靖西至南宁列车查询,https://trains.ctrip.com/TrainBooking/jingxi2-nanning/dongche/,,2026-09-20,2026-09-22,D5靖西至南宁铁路,medium,页面显示K9306等候选；不同商业时刻页存在约一小时冲突，指定日期以12306票面为准
+R10,commercial,南宁东至广州南车次与票价快照,https://trains.ctrip.com/trainbooking/nanning-guangzhoudong,,2026-09-20,2026-09-22,D6返程铁路,medium,非指定日期页面可见D3619等车次和浮动二等座价格；10月6日开行余票待12306核验
+R11,official,南宁各站起售时间调整,https://www.nanning.china.com.cn/2025-06/09/content_43138850.htm,2025-06-09,2026-09-20,2026-09-22,D6抢票时间,high,南宁日报内容说明南宁站南宁东站南宁北站调整为15:15；开售前仍按12306查询
+H07,commercial,南宁铁道大酒店南宁火车东站店,https://hotels.ctrip.com/hotels/4310739.html,,2026-09-20,2026-09-28,D5南宁住宿候选,medium,页面显示距东站地铁站约810米及接送亲子设施线索；国庆房型价格与接送时段待核
+H08,commercial,南宁东站希尔顿欢朋酒店,https://hotels.ctrip.com/hotels/37478347.html,,2026-09-20,2026-09-28,D5南宁住宿候选,medium,页面有沙发床家庭入住早餐洗衣线索；距东站约2.3公里，不采用点评中的步行承诺
+H09,commercial,宜尚PLUS酒店南宁东站店,https://hotels.ctrip.com/hotels/39042010.html,,2026-09-20,2026-09-28,D5南宁住宿候选,medium,近期页面有近东站和亲子设施线索；国庆三人房型早餐退改待核
+F17,commercial,桂小厨广西菜南宁万象城店,https://gs.ctrip.com/html5/you/foods/nanning166/5451243.html,,2026-09-20,2026-09-28,D5南宁晚餐,medium,页面显示万象城L4营业时间宝宝椅及菜品；国庆等位和实际营业待现场核实
+F18,commercial,高德南宁市美食榜,https://www.amap.com/ranking/nanning,,2026-09-20,2026-09-28,D5南宁晚餐筛选,medium,榜单用于筛选柠檬鸭等本地餐厅；热度不等于儿童适口或无需排队
