@@ -60,7 +60,8 @@ R07,official,广东城际乘车指南,https://www.gz.gov.cn/zwfw/zxfw/jtfw/conte
 R08,official,12306候补规则,https://kyfw.12306.cn/otn/gonggao/alternate.html,,2026-09-17,2026-09-22,D1 D6铁路与购票,medium,同一需求不部分兑现；付款后生效；未替用户操作
 H05,commercial,柏曼酒店百色靖西锦绣古镇店,https://hotels.ctrip.com/hotels/123698014.html,,2026-09-17,2026-09-28,靖西住宿候选,medium,原文与可见近期点评已读；有家庭房线索；古镇对面可能有夜间音乐，须选背街安静房；不采用默认日期价格
 H06,commercial,雅斯特美途酒店靖西银山颐园店,https://m.ctrip.com/webapp/hotel/jingxi21417/h758,,2026-09-17,2026-09-28,靖西住宿候选,low,页面可见家庭房洗衣与宽敞房间线索；当前证据较少；不采用默认日期价格
-U17,user,用户确认已购D3782,,2026-09-17,2026-09-17,,D1去程车票,high,仅记录车次日期与乘车区间；不记录订单号乘车人证件席位或支付信息
+U17,user,用户确认已购D3782并提供三人实付,,2026-09-17,2026-09-21,,D1去程车票,high,2成人1儿童合计843元；仅记录车次日期区间与总价；不记录订单号乘车人证件或席位
+U18,user,用户确认已购K9304并提供三人实付,,2026-09-21,2026-09-21,,D5靖西至南宁车票,high,2成人1儿童合计109元；仅记录车次日期区间与总价；不记录订单号乘车人证件或席位
 E01,community,Reddit travelchina浩坤湖经历,https://www.reddit.com/r/travelchina/comments/1hpgo3z,2024-12-30,2026-09-17,,D2英文社区视角,low,单一英文帖子；提到民宿后另换交通到网红山顶及外国客住宿资格；不作为儿童难度或国庆运力证明
 E02,community,Tripadvisor浩坤湖英文评论,https://www.tripadvisor.com/Attraction_Review-g1833724-d1856318-Reviews-Haokun_Lake-Lingyun_County_Guangxi.html,2017-10-05,2026-09-17,,D2英文社区视角,low,仅1条2017评论；旧船务洗手间与小食摊信息不作2026运营事实
 E03,commercial,Trip.com浩坤湖英文页,https://www.trip.com/travel-guide/attraction/lingyun/haokun-lake-scenic-area-56807956?locale=en-US,,2026-09-17,2026-09-28,D2英文社区视角,low,含自动翻译与社区内容；只用于船岸视角和3至5小时线索；不采用野山免费路线
@@ -81,7 +82,7 @@ F13,commercial,Trip.com渠洋湖周边餐厅列表,https://hk.trip.com/travel-gu
 F14,commercial,高德壮家菜与桂小厨交叉餐厅页,https://www.amap.com/ranking/baise,,2026-09-19,2026-09-28,D1 D5百色城市晚餐,medium,百色榜单与门店地址用于候选筛选；不把平台文案当独立食评
 F15,commercial,山水人家食庄鹅泉店近期点评,https://you.ctrip.com/food/967/17506620.html,2026-09-07,2026-09-19,2026-09-28,D4鹅泉午餐,medium,页面现有7条点评含2026-09-07新评；其余多为历史样本；国庆座位与菜单仍需确认
 F16,community,大众点评内容转载的百色小吃专题,https://fashion.sina.cn/l/ds/2024-01-22/detail-inaczqyh0859190.d.html,2024-01-22,2026-09-19,,D2文明街卷粉,low,引用大众点评用户内容介绍三和卷粉形态与文明街位置；非近期营业证据且旧价不沿用
-R09,commercial,靖西至南宁列车查询,https://trains.ctrip.com/TrainBooking/jingxi2-nanning/dongche/,,2026-09-20,2026-09-22,D5靖西至南宁铁路,medium,页面显示K9306等候选；不同商业时刻页存在约一小时冲突，指定日期以12306票面为准
+R09,commercial,靖西至南宁列车查询,https://trains.ctrip.com/TrainBooking/jingxi2-nanning/dongche/,,2026-09-21,2026-09-28,D5靖西至南宁铁路,medium,K9304公开参考约08:32发11:53至12:00到；用户已购指定日期车票，准确时刻与终到站只按私人票面
 R10,commercial,南宁东至广州南车次与票价快照,https://trains.ctrip.com/trainbooking/nanning-guangzhoudong,,2026-09-20,2026-09-22,D6返程铁路,medium,非指定日期页面可见D3619等车次和浮动二等座价格；10月6日开行余票待12306核验
 R11,official,南宁各站起售时间调整,https://www.nanning.china.com.cn/2025-06/09/content_43138850.htm,2025-06-09,2026-09-20,2026-09-22,D6抢票时间,high,南宁日报内容说明南宁站南宁东站南宁北站调整为15:15；开售前仍按12306查询
 H07,commercial,途泊酒店南宁火车东站南广场店,https://hotels.ctrip.com/hotels/72322654.html,,2026-09-21,2026-09-28,D5南宁住宿候选,medium,平台地址在南广场负一楼出站层并标注距南宁东站约10米；需核实通道有窗房三人入住和国庆库存
