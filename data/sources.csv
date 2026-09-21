@@ -103,3 +103,6 @@ H10,commercial,Trip.com三城指定日期住宿报价快照,https://hk.trip.com/
 P01,commercial,三景点OTA公开票价快照,https://touch.piao.qunar.com/touch/detail.htm?id=474328,,2026-09-21,2026-09-28,门票预算,medium,浩坤湖成人58学生30景交36游船成人96；渠洋湖2大1小游船162；鹅泉公开成人约48儿童约20，使用日复核
 U22,user,用户确认已购S4742,,2026-09-21,2026-09-21,,D1西平西至番禺城际,high,10月1日S4742已购；实付金额与私人票面时刻待补；不记录订单号乘车人证件或席位
 R15,commercial,S4742现行公开时刻参考,https://www.gaotie.com.cn/checi/S4742.html,,2026-09-21,2026-09-30,D1西平西至番禺接续,medium,当前公开参考西平西07:50发番禺08:27到；仅作接续规划，10月1日执行以私人票面为准
+STEP01,official,广州市政府：番禺城际站换乘空间,https://www.gz.gov.cn/zwfw/zxfw/jtfw/content/post_9666864.html,,2026-09-22,2026-09-30,D1番禺广州南接续,medium,仅核对番禺站位于广州南地下空间；不承诺具体闸口和国庆查验路线
+STEP02,official,中国天气网广西站：鹅泉景区,https://gx.weather.com.cn/zt/3477559.shtml,2021-07-07,2026-09-22,2026-09-30,D4鹅泉景观背景,medium,历史景观介绍；不用于当日票价开放或二次入园规则
+STEP03,official,中国天气网广西站：渠洋湖风景区,https://gx.weather.com.cn/zt/3477578.shtml,,2026-09-22,2026-09-30,D3渠洋湖景观背景,medium,历史景观介绍；不用于码头船务或运营承诺

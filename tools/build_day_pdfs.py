@@ -212,6 +212,17 @@ def markdown_flowables(text: str, project: Path, styles: dict[str, ParagraphStyl
                 flow.append(table_flowable(rows, styles))
                 flow.append(Spacer(1, 3 * mm))
             continue
+        if re.match(r"^\d+\.\s+", line):
+            items = []
+            start_number = int(line.split('.', 1)[0])
+            while index < len(lines) and re.match(r"^\d+\.\s+", lines[index]):
+                item = re.sub(r"^\d+\.\s+", "", lines[index]).strip()
+                items.append(ListItem(Paragraph(inline_markup(item), styles["body"])))
+                index += 1
+            flow.append(ListFlowable(items, bulletType="1", start=start_number,
+                                     leftIndent=7 * mm, bulletFontName="MSYH",
+                                     bulletFontSize=9, spaceAfter=2 * mm))
+            continue
         if re.match(r"^\s*[-*]\s+", line):
             items = []
             while index < len(lines) and re.match(r"^\s*[-*]\s+", lines[index]):
@@ -233,7 +244,7 @@ def markdown_flowables(text: str, project: Path, styles: dict[str, ParagraphStyl
         while index < len(lines):
             nxt = lines[index].rstrip()
             if (not nxt.strip() or re.match(r"^(#{1,4})\s+", nxt) or
-                    re.match(r"^\s*[-*]\s+", nxt) or nxt.lstrip().startswith("|") or
+                    re.match(r"^\s*[-*]\s+", nxt) or re.match(r"^\d+\.\s+", nxt) or nxt.lstrip().startswith("|") or
                     re.fullmatch(r"!\[([^]]*)\]\(([^)]+)\)", nxt.strip()) or nxt.startswith(">")):
                 break
             paragraph.append(nxt.strip())
@@ -270,7 +281,7 @@ def first_page(canvas, doc, day_label: str):
     canvas.rect(0, A4[1] - 18 * mm, A4[0], 18 * mm, fill=1, stroke=0)
     canvas.setFont("MSYH-Bold", 9)
     canvas.setFillColor(colors.white)
-    canvas.drawString(14 * mm, A4[1] - 11.5 * mm, f"百色靖西家庭旅行 · {day_label} · 打车规划稿")
+    canvas.drawString(14 * mm, A4[1] - 11.5 * mm, f"百色靖西南宁家庭旅行 · {day_label} · 逐步行程")
     footer(canvas, doc)
     canvas.restoreState()
 
@@ -291,7 +302,7 @@ def footer(canvas, doc):
     canvas.line(14 * mm, 12 * mm, A4[0] - 14 * mm, 12 * mm)
     canvas.setFont("MSYH", 7)
     canvas.setFillColor(MUTED)
-    canvas.drawString(14 * mm, 7 * mm, "更新 2026-09-17 · 票面、官方公告与实时导航优先")
+    canvas.drawString(14 * mm, 7 * mm, "更新 2026-09-22 · 票面、官方公告与实时导航优先")
     canvas.drawRightString(A4[0] - 14 * mm, 7 * mm, f"第 {doc.page} 页")
 
 
@@ -314,7 +325,7 @@ def build_one(project: Path, output: Path, day_number: int, route: dict, styles)
     else:
         story = [Spacer(1, 4 * mm), Paragraph(inline_markup(title), styles["cover"])]
     story.append(Paragraph("2成人 + 1名8岁儿童 · 每晚1间房 · 当地打车", styles["cover_sub"]))
-    story.append(Paragraph("本页为离线备查。出现航变、预警、道路管制、景区公告或身体不适时，立即以安全和休息优先。", styles["callout"]))
+    story.append(Paragraph("本页为离线备查。出现列车调整、预警、道路管制、景区公告或身体不适时，立即以安全和休息优先。", styles["callout"]))
     story.extend(route_flowables(route, styles))
     story.append(Spacer(1, 4 * mm))
     detail_marker = "\n## 看点与现场提醒\n"

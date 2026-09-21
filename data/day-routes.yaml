@@ -100,7 +100,7 @@ routes:
     detail: 优先约500米范围；寄存行李后午餐，按实际拖箱路线决定步行或短程打车
     url: https://uri.amap.com/search?keyword=%E5%8D%97%E5%AE%81%E7%AB%99%20%E9%85%92%E5%BA%97&callnative=0
   segments:
-  - K9304已购，三人实付109元
+  - 酒店到靖西站预约出租车约25分钟，发车前75至90分钟到站
   - 公开参考08:32发、11:53—12:00到；只以私人票面执行
   - 南宁站转近站酒店约15—40分钟含出站与候车
 - day_id: day-06
@@ -109,7 +109,7 @@ routes:
   note: 时刻与票价为现行公开参考，以10月6日12306票面为准；南宁站与南宁东站不可混用。
   stops:
   - label: 南宁站周边酒店
-    detail: 约12:00退房，午餐可在进站前解决
+    detail: 约11:00退房并提前午餐，12:00左右出发去南宁站
     url: https://uri.amap.com/search?keyword=%E5%8D%97%E5%AE%81%E7%AB%99%20%E9%85%92%E5%BA%97&callnative=0
   - label: 南宁站
     detail: 计划G2955，13:58参考发车；12:30前到站

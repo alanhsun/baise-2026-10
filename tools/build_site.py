@@ -312,6 +312,14 @@ def main() -> int:
             day_html = day_html.replace(reminder_anchor, dining_block + reminder_anchor, 1)
         else:
             day_html += dining_block
+        shortcuts = []
+        for heading, suffix in [("行程时间轴", "timeline"), ("当天照着走", "steps"), ("当天美食", "meals")]:
+            anchor_id = f"{path.stem}-{suffix}"
+            marker = f"<h2>{heading}</h2>"
+            if marker in day_html:
+                day_html = day_html.replace(marker, f'<h2 id="{anchor_id}">{heading}</h2>', 1)
+                shortcuts.append(f'<a href="#{anchor_id}">{heading}</a>')
+        day_html = re.sub(r"(</h1>)", lambda m: m.group(1) + '<p class="day-shortcuts" aria-label="当天内容导航">' + ' · '.join(shortcuts) + '</p>', day_html, count=1)
         days.append((path.stem, day_html))
     budget_table, budget_low, budget_high, budget_actual = render_budget(tables["budget.csv"])
     budget_remaining_low = max(0.0, budget_low - budget_actual)
