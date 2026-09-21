@@ -62,6 +62,7 @@ H05,commercial,柏曼酒店百色靖西锦绣古镇店,https://hotels.ctrip.com/
 H06,commercial,雅斯特美途酒店靖西银山颐园店,https://m.ctrip.com/webapp/hotel/jingxi21417/h758,,2026-09-17,2026-09-28,靖西住宿候选,low,页面可见家庭房洗衣与宽敞房间线索；当前证据较少；不采用默认日期价格
 U17,user,用户确认已购D3782并提供三人实付,,2026-09-17,2026-09-21,,D1去程车票,high,2成人1儿童合计843元；仅记录车次日期区间与总价；不记录订单号乘车人证件或席位
 U18,user,用户确认已购K9304并提供三人实付,,2026-09-21,2026-09-21,,D5靖西至南宁车票,high,2成人1儿童合计109元；仅记录车次日期区间与总价；不记录订单号乘车人证件或席位
+U19,user,用户确认已订百色梦之源大酒店并提供实付,,2026-09-21,2026-09-21,,百色10月1日至3日住宿,high,百色梦之岛商业中心店一间大床房两晚757元；不记录订单号或入住人信息
 E01,community,Reddit travelchina浩坤湖经历,https://www.reddit.com/r/travelchina/comments/1hpgo3z,2024-12-30,2026-09-17,,D2英文社区视角,low,单一英文帖子；提到民宿后另换交通到网红山顶及外国客住宿资格；不作为儿童难度或国庆运力证明
 E02,community,Tripadvisor浩坤湖英文评论,https://www.tripadvisor.com/Attraction_Review-g1833724-d1856318-Reviews-Haokun_Lake-Lingyun_County_Guangxi.html,2017-10-05,2026-09-17,,D2英文社区视角,low,仅1条2017评论；旧船务洗手间与小食摊信息不作2026运营事实
 E03,commercial,Trip.com浩坤湖英文页,https://www.trip.com/travel-guide/attraction/lingyun/haokun-lake-scenic-area-56807956?locale=en-US,,2026-09-17,2026-09-28,D2英文社区视角,low,含自动翻译与社区内容；只用于船岸视角和3至5小时线索；不采用野山免费路线

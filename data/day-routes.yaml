@@ -16,9 +16,9 @@ routes:
   - label: 百色站
     detail: 已购D3782，现行14:53到站
     url: https://uri.amap.com/search?keyword=%E7%99%BE%E8%89%B2%E7%AB%99&callnative=0
-  - label: 梦之源大酒店 百色
-    detail: 候选酒店，16:30后休息
-    url: https://uri.amap.com/search?keyword=%E6%A2%A6%E4%B9%8B%E6%BA%90%E5%A4%A7%E9%85%92%E5%BA%97%20%E7%99%BE%E8%89%B2&callnative=0
+  - label: 梦之源大酒店（百色梦之岛商业中心店）
+    detail: 已订大床房；10月1日入住，两晚实付757元
+    url: https://uri.amap.com/search?keyword=%E6%A2%A6%E4%B9%8B%E6%BA%90%E5%A4%A7%E9%85%92%E5%BA%97%20%E7%99%BE%E8%89%B2%E6%A2%A6%E4%B9%8B%E5%B2%9B%E5%95%86%E4%B8%9A%E4%B8%AD%E5%BF%83%E5%BA%97&callnative=0
   segments:
   - 出租车约20—40分钟
   - 城际快慢车约30—70分钟另含候车
@@ -29,15 +29,15 @@ routes:
   summary: 08时百色出发，15时从浩坤湖接回，同一酒店第2晚
   note: 路线示意，不按地理比例；地图链接为名称检索，需确认实际入口和上下车点。时长为规划估算，不能替代票面或实时导航。
   stops:
-  - label: 梦之源大酒店 百色
-    detail: 08:00出发，大行李留房
-    url: https://uri.amap.com/search?keyword=%E6%A2%A6%E4%B9%8B%E6%BA%90%E5%A4%A7%E9%85%92%E5%BA%97%20%E7%99%BE%E8%89%B2&callnative=0
+  - label: 梦之源大酒店（百色梦之岛商业中心店）
+    detail: 已订第2晚；08:00出发，大行李留房
+    url: https://uri.amap.com/search?keyword=%E6%A2%A6%E4%B9%8B%E6%BA%90%E5%A4%A7%E9%85%92%E5%BA%97%20%E7%99%BE%E8%89%B2%E6%A2%A6%E4%B9%8B%E5%B2%9B%E5%95%86%E4%B8%9A%E4%B8%AD%E5%BF%83%E5%BA%97&callnative=0
   - label: 浩坤湖 景区游客入口 凌云
     detail: 10:00—15:00，午餐、湖岸与可选船
     url: https://uri.amap.com/search?keyword=%E6%B5%A9%E5%9D%A4%E6%B9%96%20%E6%99%AF%E5%8C%BA%E6%B8%B8%E5%AE%A2%E5%85%A5%E5%8F%A3%20%E5%87%8C%E4%BA%91&callnative=0
-  - label: 梦之源大酒店 百色
+  - label: 梦之源大酒店（百色梦之岛商业中心店）
     detail: 17:00左右回到酒店
-    url: https://uri.amap.com/search?keyword=%E6%A2%A6%E4%B9%8B%E6%BA%90%E5%A4%A7%E9%85%92%E5%BA%97%20%E7%99%BE%E8%89%B2&callnative=0
+    url: https://uri.amap.com/search?keyword=%E6%A2%A6%E4%B9%8B%E6%BA%90%E5%A4%A7%E9%85%92%E5%BA%97%20%E7%99%BE%E8%89%B2%E6%A2%A6%E4%B9%8B%E5%B2%9B%E5%95%86%E4%B8%9A%E4%B8%AD%E5%BF%83%E5%BA%97&callnative=0
   segments:
   - 预约车约1.5—2小时，实际入口待确认
   - 15:00预约接回，约1.5—2小时及路况弹性
@@ -46,9 +46,9 @@ routes:
   summary: 渠洋湖为当日主要游览，傍晚到靖西
   note: 路线示意，不按地理比例；地图链接为名称检索，需确认实际入口和上下车点。时长为规划估算，不能替代票面或实时导航。
   stops:
-  - label: 梦之源大酒店 百色
-    detail: 08:30退房出发，行李随行
-    url: https://uri.amap.com/search?keyword=%E6%A2%A6%E4%B9%8B%E6%BA%90%E5%A4%A7%E9%85%92%E5%BA%97%20%E7%99%BE%E8%89%B2&callnative=0
+  - label: 梦之源大酒店（百色梦之岛商业中心店）
+    detail: 已订住宿10月3日退房；08:30出发，行李随行
+    url: https://uri.amap.com/search?keyword=%E6%A2%A6%E4%B9%8B%E6%BA%90%E5%A4%A7%E9%85%92%E5%BA%97%20%E7%99%BE%E8%89%B2%E6%A2%A6%E4%B9%8B%E5%B2%9B%E5%95%86%E4%B8%9A%E4%B8%AD%E5%BF%83%E5%BA%97&callnative=0
   - label: 渠洋湖 靖西
     detail: 11:30午餐，13:00游览，15:00离开
     url: https://uri.amap.com/search?keyword=%E6%B8%A0%E6%B4%8B%E6%B9%96%20%E9%9D%96%E8%A5%BF&callnative=0
