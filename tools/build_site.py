@@ -366,11 +366,11 @@ def main() -> int:
       <h1>{html.escape(data.get('title', '行程'))}</h1>
       <p>{html.escape(str(data.get('start_date', '')))} — {html.escape(str(data.get('end_date', '')))}</p>
       <p class="trip-meta">2成人＋1名8岁儿童 · 每晚1间房 · 当地打车</p>
-      <p class="verified">旅行规划攻略 · 交通住宿未预订 · 信息更新：{html.escape(verified_display)}</p>
+      <p class="verified">旅行执行攻略 · 已购已订项目见速览 · 信息更新：{html.escape(verified_display)}</p>
     </div>
   </header>
   <nav class="nav" aria-label="页面导航">
-    <a href="#overview">总览</a><a href="#days">每日行程</a>
+    <a href="#overview">速览</a><a href="#days">每日行程</a>
     <a href="#logistics">交通住宿</a><a href="#actions">预约预算</a>
   </nav>
   <main>
@@ -378,7 +378,7 @@ def main() -> int:
     <section id="days"><h2>每日行程</h2><div class="day-jump" aria-label="快速跳转每日行程">{day_links}</div>{''.join(f'<article class="day" id="{day_id}">{day}</article>' for day_id, day in days)}</section>
     <section id="logistics">
       <h2>交通与住宿</h2>
-      <h3>住宿候选（未预订）</h3>
+      <h3>住宿安排</h3>
       {accommodation_table}
       <details class="details-panel"><summary>展开点到点交通表（{len(active_transport)}段）</summary>{transport_table}</details>
     </section>
@@ -391,7 +391,7 @@ def main() -> int:
         <div><strong>{money(budget_remaining_low)}–{money(budget_remaining_high)}</strong><span>尚待支出</span></div>
         <div><strong>{money(budget_low)}–{money(budget_high)}</strong><span>当前总支出预测</span></div>
       </div>
-      <p class="budget-note">全家3人，5晚×1房共5间夜；D3782、K9304及百色、靖西住宿采用用户确认的实付金额，其余仍为规划估算。备用金已包含，实际报价另核。</p>
+      <p class="budget-note">全家3人，5晚×1房共5间夜；D3782、K9304及百色、靖西住宿采用用户确认的实付金额；S4742已购但金额待补，其余仍为规划估算。备用金已包含，实际报价另核。</p>
       <details class="details-panel" open><summary>预算分类明细</summary>{budget_table}</details>
     </section>
   </main>

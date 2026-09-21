@@ -128,7 +128,7 @@ def image_flowable(project: Path, target: str, alt: str, styles: dict[str, Parag
         return [Paragraph(f"图片：{inline_markup(alt)}", styles["caption"])]
     with PILImage.open(source) as im:
         width, height = im.size
-    max_w, max_h = 176 * mm, (105 if source.suffix.lower() == '.jpg' else 125) * mm
+    max_w, max_h = 176 * mm, (90 if source.suffix.lower() == '.jpg' else 125) * mm
     scale = min(max_w / width, max_h / height, 1.0)
     img = Image(str(source), width=width * scale, height=height * scale)
     img.hAlign = "CENTER"

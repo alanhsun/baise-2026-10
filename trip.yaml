@@ -1,6 +1,6 @@
 schema_version: 1
 trip_id: baise-2026-10-taxi
-title: 百色·浩坤湖·靖西·南宁六日家庭旅行攻略
+title: 百色·浩坤湖·靖西·南宁六日家庭旅行执行攻略
 timezone: Asia/Shanghai
 stage: published
 publish: true
@@ -52,4 +52,4 @@ constraints:
 - 各费用为研究估算，不是用户预算上限
 - 2026-09-17改为2成人1儿童，每晚一间房沿用原要求
 - D5乘已购K9304到南宁站并住车站周边，公路仅作列车临时停运兜底；D6计划从南宁站乘G2955到虎门后打车回南城
-last_verified_at: 2026-09-21T21:01+08:00
+last_verified_at: 2026-09-21T22:00+08:00
