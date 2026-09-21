@@ -52,9 +52,9 @@ routes:
   - label: 渠洋湖 靖西
     detail: 11:30午餐，13:00游览，15:00离开
     url: https://uri.amap.com/search?keyword=%E6%B8%A0%E6%B4%8B%E6%B9%96%20%E9%9D%96%E8%A5%BF&callnative=0
-  - label: 柏曼酒店 靖西锦绣古镇店
-    detail: 首选候选；约17:00入住，一间房
-    url: https://uri.amap.com/search?keyword=%E6%9F%8F%E6%9B%BC%E9%85%92%E5%BA%97%20%E9%9D%96%E8%A5%BF%E9%94%A6%E7%BB%A3%E5%8F%A4%E9%95%87&callnative=0
+  - label: 尚客优酒店（广西百色靖西市靖宇汽车站店）
+    detail: 已订大床房；约17:00入住，两晚实付570元
+    url: https://uri.amap.com/search?keyword=%E5%B0%9A%E5%AE%A2%E4%BC%98%E9%85%92%E5%BA%97%20%E5%B9%BF%E8%A5%BF%E7%99%BE%E8%89%B2%E9%9D%96%E8%A5%BF%E5%B8%82%E9%9D%96%E5%AE%87%E6%B1%BD%E8%BD%A6%E7%AB%99%E5%BA%97&callnative=0
   segments:
   - 约3小时含休息，实时导航复核
   - 湖区约3小时含午餐，再预留约2小时到酒店
@@ -62,23 +62,23 @@ routes:
   - after_stop: 1
     title: 仅天气预警、停业或接续无车时兜底直达
     options:
-    - label: 直达靖西酒店
+    - label: 直达已订尚客优酒店
       detail: 约3—4小时含休息；先吃午饭，按酒店规定入住
-      url: https://uri.amap.com/search?keyword=%E6%9F%8F%E6%9B%BC%E9%85%92%E5%BA%97%20%E9%9D%96%E8%A5%BF%E9%94%A6%E7%BB%A3%E5%8F%A4%E9%95%87&callnative=0
+      url: https://uri.amap.com/search?keyword=%E5%B0%9A%E5%AE%A2%E4%BC%98%E9%85%92%E5%BA%97%20%E5%B9%BF%E8%A5%BF%E7%99%BE%E8%89%B2%E9%9D%96%E8%A5%BF%E5%B8%82%E9%9D%96%E5%AE%87%E6%B1%BD%E8%BD%A6%E7%AB%99%E5%BA%97&callnative=0
 - day_id: day-04
   title: D4 当日路线
   summary: 只游鹅泉，往返两程预约，下午回房
   note: 路线示意，不按地理比例；地图链接为名称检索，需确认实际入口和上下车点。时长为规划估算，不能替代票面或实时导航。
   stops:
-  - label: 柏曼酒店 靖西锦绣古镇店
-    detail: 08:00出发
-    url: https://uri.amap.com/search?keyword=%E6%9F%8F%E6%9B%BC%E9%85%92%E5%BA%97%20%E9%9D%96%E8%A5%BF%E9%94%A6%E7%BB%A3%E5%8F%A4%E9%95%87&callnative=0
+  - label: 尚客优酒店（广西百色靖西市靖宇汽车站店）
+    detail: 已订第2晚；08:00出发
+    url: https://uri.amap.com/search?keyword=%E5%B0%9A%E5%AE%A2%E4%BC%98%E9%85%92%E5%BA%97%20%E5%B9%BF%E8%A5%BF%E7%99%BE%E8%89%B2%E9%9D%96%E8%A5%BF%E5%B8%82%E9%9D%96%E5%AE%87%E6%B1%BD%E8%BD%A6%E7%AB%99%E5%BA%97&callnative=0
   - label: 鹅泉景区 靖西
     detail: 09:00游览，11:30午餐，13:30回程
     url: https://uri.amap.com/search?keyword=%E9%B9%85%E6%B3%89%E6%99%AF%E5%8C%BA%20%E9%9D%96%E8%A5%BF&callnative=0
-  - label: 柏曼酒店 靖西锦绣古镇店
+  - label: 尚客优酒店（广西百色靖西市靖宇汽车站店）
     detail: 约14:30回店休息
-    url: https://uri.amap.com/search?keyword=%E6%9F%8F%E6%9B%BC%E9%85%92%E5%BA%97%20%E9%9D%96%E8%A5%BF%E9%94%A6%E7%BB%A3%E5%8F%A4%E9%95%87&callnative=0
+    url: https://uri.amap.com/search?keyword=%E5%B0%9A%E5%AE%A2%E4%BC%98%E9%85%92%E5%BA%97%20%E5%B9%BF%E8%A5%BF%E7%99%BE%E8%89%B2%E9%9D%96%E8%A5%BF%E5%B8%82%E9%9D%96%E5%AE%87%E6%B1%BD%E8%BD%A6%E7%AB%99%E5%BA%97&callnative=0
   segments:
   - 含候车与进村排队预留1小时
   - 预约回程预留1小时，具体按路况
@@ -87,44 +87,40 @@ routes:
   summary: 已购K9304，靖西转场南宁；两大一小实付109元
   note: 公开参考约08:32发、11:53—12:00到；准确发到时刻与终到站以私人票面为准。路线示意不按地理比例。
   stops:
-  - label: 靖西酒店
-    detail: 前晚核对K9304票面并确认能否提前吃早餐或打包
-    url: https://uri.amap.com/search?keyword=%E9%9D%96%E8%A5%BF%E9%85%92%E5%BA%97&callnative=0
+  - label: 尚客优酒店（广西百色靖西市靖宇汽车站店）
+    detail: 10月5日退房；前晚核对K9304票面并确认能否提前吃早餐或打包
+    url: https://uri.amap.com/search?keyword=%E5%B0%9A%E5%AE%A2%E4%BC%98%E9%85%92%E5%BA%97%20%E5%B9%BF%E8%A5%BF%E7%99%BE%E8%89%B2%E9%9D%96%E8%A5%BF%E5%B8%82%E9%9D%96%E5%AE%87%E6%B1%BD%E8%BD%A6%E7%AB%99%E5%BA%97&callnative=0
   - label: 靖西站
     detail: 已购K9304；按私人票面发车前75—90分钟到站
     url: https://uri.amap.com/search?keyword=%E9%9D%96%E8%A5%BF%E7%AB%99&callnative=0
   - label: 南宁站
     detail: 商业时刻参考终到南宁站；实际仍按私人票面站名执行
     url: https://uri.amap.com/search?keyword=%E5%8D%97%E5%AE%81%E7%AB%99&callnative=0
-  - label: 南宁东站南广场酒店
-    detail: 南宁站到店打车约45—75分钟；先寄存行李再午餐
-    url: https://uri.amap.com/search?keyword=%E5%8D%97%E5%AE%81%E4%B8%9C%E7%AB%99%20%E9%85%92%E5%BA%97&callnative=0
+  - label: 南宁站周边酒店
+    detail: 优先约500米范围；寄存行李后午餐，按实际拖箱路线决定步行或短程打车
+    url: https://uri.amap.com/search?keyword=%E5%8D%97%E5%AE%81%E7%AB%99%20%E9%85%92%E5%BA%97&callnative=0
   segments:
   - K9304已购，三人实付109元
   - 公开参考08:32发、11:53—12:00到；只以私人票面执行
-  - 南宁站转南宁东片区酒店约45—75分钟
+  - 南宁站转近站酒店约15—40分钟含出站与候车
 - day_id: day-06
   title: D6 当日路线
-  summary: 主选D3619南宁东09:24→广州南12:47；9/22 15:15抢票
-  note: 时刻为非指定日期参考，以10月6日票面为准；广州南转番禺留足步行和候车。
+  summary: 计划G2955南宁站13:58→虎门17:27；9/22 15:15抢票
+  note: 时刻与票价为现行公开参考，以10月6日12306票面为准；南宁站与南宁东站不可混用。
   stops:
-  - label: 南宁东站南广场酒店
-    detail: 约07:15退房出发
-    url: https://uri.amap.com/search?keyword=%E5%8D%97%E5%AE%81%E4%B8%9C%E7%AB%99%20%E9%85%92%E5%BA%97&callnative=0
-  - label: 南宁东站
-    detail: 主选D3619，09:24参考发车
-    url: https://uri.amap.com/search?keyword=%E5%8D%97%E5%AE%81%E4%B8%9C%E7%AB%99&callnative=0
-  - label: 广州南站/番禺站
-    detail: 12:47参考到站；转城际至少留45—60分钟
-    url: https://uri.amap.com/search?keyword=%E5%B9%BF%E5%B7%9E%E5%8D%97%E7%AB%99%20/%20%E7%95%AA%E7%A6%BA%E7%AB%99&callnative=0
-  - label: 东莞西平西站
-    detail: 按实际城际班次到达
-    url: https://uri.amap.com/search?keyword=%E4%B8%9C%E8%8E%9E%E8%A5%BF%E5%B9%B3%E8%A5%BF%E7%AB%99&callnative=0
+  - label: 南宁站周边酒店
+    detail: 约12:00退房，午餐可在进站前解决
+    url: https://uri.amap.com/search?keyword=%E5%8D%97%E5%AE%81%E7%AB%99%20%E9%85%92%E5%BA%97&callnative=0
+  - label: 南宁站
+    detail: 计划G2955，13:58参考发车；12:30前到站
+    url: https://uri.amap.com/search?keyword=%E5%8D%97%E5%AE%81%E7%AB%99&callnative=0
+  - label: 虎门站
+    detail: 17:27参考到站；出站后正规平台叫车
+    url: https://uri.amap.com/search?keyword=%E8%99%8E%E9%97%A8%E7%AB%99&callnative=0
   - label: 南城住处
     detail: 打车到家，无第6晚酒店
     url: https://uri.amap.com/search?keyword=%E5%8D%97%E5%9F%8E%E4%BD%8F%E5%A4%84&callnative=0
   segments:
-  - 短程送站约20—40分钟
-  - D3619参考09:24—12:47，约3小时23分
-  - 换乘与城际约1.5—2.5小时
-  - 出租车约20—40分钟
+  - 近站酒店到南宁站约15—30分钟含候车或拖箱
+  - G2955公开参考13:58—17:27，约3小时29分
+  - 虎门站到南城约45—75分钟，按国庆晚高峰实时导航
