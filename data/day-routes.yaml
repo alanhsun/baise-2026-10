@@ -1,17 +1,17 @@
 routes:
 - day_id: day-01
   title: D1 当日路线
-  summary: 已购D3782，广州南09:43→百色14:53
+  summary: 已购S4742接D3782，D3782广州南09:43→百色14:53
   note: 路线示意，不按地理比例；地图链接为名称检索，需确认实际入口和上下车点。时长为规划估算，不能替代票面或实时导航。
   stops:
   - label: 南城住处
-    detail: 06:00左右出门，按实际住址重算
+    detail: 06:20左右出门，按实际住址重算
     url: https://uri.amap.com/search?keyword=%E5%8D%97%E5%9F%8E%E4%BD%8F%E5%A4%84&callnative=0
   - label: 东莞西平西站
-    detail: 06:30左右到站；选08:00前到番禺的城际
+    detail: 07:00前到站；已购S4742，公开参考07:50发
     url: https://uri.amap.com/search?keyword=%E4%B8%9C%E8%8E%9E%E8%A5%BF%E5%B9%B3%E8%A5%BF%E7%AB%99&callnative=0
   - label: 番禺站 / 广州南站
-    detail: 08:00前抵达番禺，转站留103分钟
+    detail: 公开参考08:27到番禺，接D3782约留76分钟
     url: https://uri.amap.com/search?keyword=%E7%95%AA%E7%A6%BA%E7%AB%99%20/%20%E5%B9%BF%E5%B7%9E%E5%8D%97%E7%AB%99&callnative=0
   - label: 百色站
     detail: 已购D3782，现行14:53到站
@@ -21,7 +21,7 @@ routes:
     url: https://uri.amap.com/search?keyword=%E6%A2%A6%E4%B9%8B%E6%BA%90%E5%A4%A7%E9%85%92%E5%BA%97%20%E7%99%BE%E8%89%B2%E6%A2%A6%E4%B9%8B%E5%B2%9B%E5%95%86%E4%B8%9A%E4%B8%AD%E5%BF%83%E5%BA%97&callnative=0
   segments:
   - 出租车约20—40分钟
-  - 城际快慢车约30—70分钟另含候车
+  - 已购S4742公开参考07:50—08:27，私人票面优先
   - 已购D3782 09:43—14:53，5小时10分
   - 出租车含候车约30—60分钟
 - day_id: day-02
