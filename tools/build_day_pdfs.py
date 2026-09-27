@@ -302,7 +302,7 @@ def footer(canvas, doc):
     canvas.line(14 * mm, 12 * mm, A4[0] - 14 * mm, 12 * mm)
     canvas.setFont("MSYH", 7)
     canvas.setFillColor(MUTED)
-    canvas.drawString(14 * mm, 7 * mm, "更新 2026-09-27 · 票面、官方公告与实时导航优先")
+    canvas.drawString(14 * mm, 7 * mm, "更新 2026-09-28 · 票面、官方公告与实时导航优先")
     canvas.drawRightString(A4[0] - 14 * mm, 7 * mm, f"第 {doc.page} 页")
 
 
@@ -345,11 +345,22 @@ def build_one(project: Path, output: Path, day_number: int, route: dict, styles)
             story.extend(markdown_flowables(section, project, styles, skip_h1=True))
     else:
         story.extend(markdown_flowables(before_details, project, styles, skip_h1=True))
+    if day_number == 4:
+        # Keep dining recommendations together after the full-page photo gallery.
+        story.append(PageBreak())
     story.append(Paragraph("当天美食", styles["h2"]))
     dining_text = extract_dining_section(project / "content" / "dining-guide.md", day_number)
     story.extend(markdown_flowables(dining_text, project, styles))
     if after_details:
-        story.extend(markdown_flowables("## 看点与现场提醒\n" + after_details, project, styles))
+        remainder = "## 看点与现场提醒\n" + after_details
+        public_marker = "\n## 公共交通备选\n"
+        if public_marker in remainder:
+            reminders, public_transport = remainder.split(public_marker, 1)
+            story.extend(markdown_flowables(reminders, project, styles))
+            story.append(PageBreak())
+            story.extend(markdown_flowables("## 公共交通备选\n" + public_transport, project, styles))
+        else:
+            story.extend(markdown_flowables(remainder, project, styles))
     day_label = f"D{day_number} · {date}"
     doc.build(
         story,
@@ -363,6 +374,8 @@ def main() -> int:
     parser = argparse.ArgumentParser(description="生成D1-D6每日离线PDF")
     parser.add_argument("project_dir", nargs="?", default=".", type=Path)
     parser.add_argument("--output", type=Path, default=Path("output/pdf"))
+    parser.add_argument("--days", type=int, nargs="+", choices=range(1, 7),
+                        help="Only rebuild these daily PDFs; reuse existing others when merging.")
     args = parser.parse_args()
     project = args.project_dir.resolve()
     output = (project / args.output).resolve() if not args.output.is_absolute() else args.output
@@ -377,7 +390,13 @@ def main() -> int:
     built = []
     for day_number in range(1, 7):
         day_id = f"day-{day_number:02d}"
-        built.append(build_one(project, output, day_number, routes[day_id], styles))
+        if args.days is None or day_number in args.days:
+            built.append(build_one(project, output, day_number, routes[day_id], styles))
+        else:
+            existing = output / f"day-{day_number:02d}-{DAY_DATES[day_number]}.pdf"
+            if not existing.is_file():
+                raise FileNotFoundError(f"Cannot reuse missing daily PDF: {existing}")
+            built.append(existing)
     overview_text = (project / "content/overview.md").read_text(encoding="utf-8")
     overview_text = overview_text.replace("DAILY_PDF_LINKS", "每日PDF与本完整攻略配套；纸上导航请使用目的地完整名称。")
     overview_text = re.sub(r"\[下载完整离线攻略 PDF\]\([^)]*\)。", "", overview_text)

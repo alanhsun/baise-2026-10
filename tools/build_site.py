@@ -313,7 +313,7 @@ def main() -> int:
         else:
             day_html += dining_block
         shortcuts = []
-        for heading, suffix in [("行程时间轴", "timeline"), ("当天照着走", "steps"), ("当天美食", "meals")]:
+        for heading, suffix in [("行程时间轴", "timeline"), ("当天照着走", "steps"), ("当天美食", "meals"), ("公共交通备选", "public")]:
             anchor_id = f"{path.stem}-{suffix}"
             marker = f"<h2>{heading}</h2>"
             if marker in day_html:

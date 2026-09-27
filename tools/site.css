@@ -101,6 +101,7 @@ blockquote p { margin: 0; }
 }
 .day h1 { margin: 0 0 1.15rem; font-size: clamp(1.35rem, 3vw, 1.65rem); }
 .day h2 { margin: 1.8rem 0 .8rem; font-size: 1.25rem; }
+.day h2[id] { scroll-margin-top: 8rem; }
 .day h3 { margin: 1.25rem 0 .55rem; font-size: 1.05rem; }
 .day-jump {
   position: sticky;
