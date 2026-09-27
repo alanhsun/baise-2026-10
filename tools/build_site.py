@@ -396,10 +396,10 @@ def main() -> int:
       <h3>费用总盘</h3>
       <div class="summary-grid budget-grid">
         <div><strong>{money(budget_actual)}</strong><span>已知实付</span></div>
-        <div><strong>{money(budget_remaining_low)}–{money(budget_remaining_high)}</strong><span>尚待支出</span></div>
+        <div><strong>{money(budget_remaining_low)}–{money(budget_remaining_high)}</strong><span>待核金额及后续支出</span></div>
         <div><strong>{money(budget_low)}–{money(budget_high)}</strong><span>当前总支出预测</span></div>
       </div>
-      <p class="budget-note">全家3人，5晚×1房共5间夜；D3782、K9304及百色、靖西住宿采用用户确认的实付金额；S4742已购但金额待补，其余仍为规划估算。备用金已包含，实际报价另核。</p>
+      <p class="budget-note">全家3人，5晚×1房共5间夜；D3782、K9304及百色、靖西住宿采用用户确认的实付金额；S4742与D593已购但金额待补，因此差额含已付未报金额，不全是尚未支付；其余为规划估算。备用金已包含，实际报价另核。</p>
       <details class="details-panel" open><summary>预算分类明细</summary>{budget_table}</details>
     </section>
   </main>

@@ -50,22 +50,13 @@ T08,commercial,百色起义纪念馆服务设施,https://you.ctrip.com/sight/bai
 K01,commercial,浩坤湖网站游览路线指引,https://haokunhu.com/tour-route-guide,,2026-09-17,2026-09-28,D2湖岸路线与山区交通,medium,景区主题网站原文已读；经营主体未进一步核验，不以此保证实时运营
 K02,commercial,浩坤湖页面与可见评论,https://gs.ctrip.com/html5/you/sight/lingyun1446254/5069278.html,,2026-09-17,2026-09-28,D2开放线索、停船冲突与道路经验,medium,显示游船停运；两条评论未显示日期；不沿用起价
 K03,official,浩坤湖部分船型运营报道,https://www.gxnews.com.cn/staticpages/20260817/newgx6a82bb57-21981929.shtml,2026-08-17,2026-09-17,2026-09-28,D2船务待复核,low,检索可见转述公告，正文抓取超时；与平台停船公告冲突，不作已确认运营
-R01,official,12306当前起售时间公告,https://www.12306.cn/mormhweb/mobile_zxdt/201411/t20141126_2316.html,,2026-09-17,2026-09-22,D1 D6铁路与购票,medium,广州南10:15、百色17:30；旧发布日期页面的当前正文，临时调整复核
-R02,commercial,D3830现行时刻,https://trains.ctrip.com/TrainSchedule/D3830,,2026-09-17,2026-09-22,D1 D6铁路与购票,medium,广州南10:32百色15:34，未核实指定日期开行
-R03,commercial,广州南百色现行票价与备选,https://trains.ctrip.com/trainbooking/guangzhounan-baise/,,2026-09-17,2026-09-22,D1 D6铁路与购票,medium,337.5成人二等座快照，非10/1订单价，不采用余票
-R04,commercial,D3804现行时刻,https://trains.ctrip.com/TrainSchedule/D3804,,2026-09-17,2026-09-22,D1 D6铁路与购票,medium,百色10:03广州南15:26，10/6待预售期复核
-R05,commercial,百色广州南现行票价与备选,https://trains.ctrip.com/trainbooking/baise-guangzhounan/,,2026-09-17,2026-09-22,D1 D6铁路与购票,medium,337.5成人二等座快照，非10/6报价
-R06,official,12306儿童优惠票与最低票价,https://kyfw.12306.cn/otn/gonggao/children.html,,2026-09-17,2026-09-22,D1 D6铁路与购票,medium,儿童约169仅条件性估算，系统金额为准
-R07,official,广东城际乘车指南,https://www.gz.gov.cn/zwfw/zxfw/jtfw/content/mpost_9674465.html,,2026-09-17,2026-09-22,D1 D6铁路与购票,medium,2024历史操作指南，儿童12306购票；当日规则再复核
-R08,official,12306候补规则,https://kyfw.12306.cn/otn/gonggao/alternate.html,,2026-09-17,2026-09-22,D1 D6铁路与购票,medium,同一需求不部分兑现；付款后生效；未替用户操作
+R07,official,广东城际乘车指南,https://www.gz.gov.cn/zwfw/zxfw/jtfw/content/mpost_9674465.html,,2026-09-27,2026-10-05,D1 D6铁路与购票,medium,9/27重开原文；2024历史操作指南，只支持城际基本乘车参考，当日票种和规则另核
 H05,commercial,柏曼酒店百色靖西锦绣古镇店,https://hotels.ctrip.com/hotels/123698014.html,,2026-09-17,2026-09-28,靖西住宿候选,medium,原文与可见近期点评已读；有家庭房线索；古镇对面可能有夜间音乐，须选背街安静房；不采用默认日期价格
 H06,commercial,雅斯特美途酒店靖西银山颐园店,https://m.ctrip.com/webapp/hotel/jingxi21417/h758,,2026-09-17,2026-09-28,靖西住宿候选,low,页面可见家庭房洗衣与宽敞房间线索；当前证据较少；不采用默认日期价格
 U17,user,用户确认已购D3782并提供三人实付,,2026-09-17,2026-09-21,,D1去程车票,high,2成人1儿童合计843元；仅记录车次日期区间与总价；不记录订单号乘车人证件或席位
 U18,user,用户确认已购K9304并提供三人实付,,2026-09-21,2026-09-21,,D5靖西至南宁车票,high,2成人1儿童合计109元；仅记录车次日期区间与总价；不记录订单号乘车人证件或席位
 U19,user,用户确认已订百色梦之源大酒店并提供实付,,2026-09-21,2026-09-21,,百色10月1日至3日住宿,high,百色梦之岛商业中心店一间大床房两晚757元；不记录订单号或入住人信息
 U20,user,用户确认已订靖西尚客优酒店并提供实付,,2026-09-21,2026-09-21,,靖西10月3日至5日住宿,high,广西百色靖西市靖宇汽车站店一间大床房两晚570元；不记录订单号或入住人信息
-U21,user,用户指定G2955返程计划与南宁住宿区域,,2026-09-21,2026-09-21,,D6返程与南宁住宿,high,计划10月6日G2955南宁至虎门；南宁酒店尽量选南宁站周边；车票尚未确认已购
-R14,commercial,G2955南宁至虎门现行时刻与票价参考,https://m.ctrip.com/html5/trains/nanningdong-humen/,,2026-09-21,2026-09-22,D6返程铁路,medium,公开参考南宁站13:58发虎门17:27到约3小时29分；成人二等座289.5元起；指定日期以12306票面为准
 H11,commercial,宁家商旅酒店南宁朝阳广场火车站店,https://hotels.ctrip.com/hotels/4424096.html,,2026-09-21,2026-09-28,D5南宁住宿候选,medium,平台标注南宁站约480米、火车站地铁D出口不足100米；需核实三人房型、拖箱路线、早餐、安静朝向和国庆价格
 H12,commercial,城市便捷酒店南宁火车站朝阳广场店,https://hotels.ctrip.com/hotels/115643622.html,,2026-09-21,2026-09-28,D5南宁住宿候选,medium,平台标注南宁站约550米、火车站地铁站约180米；需核实家庭房或三人双床、早餐、安静房和国庆价格
 H13,commercial,银河大酒店南宁火车站,https://hotels.ctrip.com/hotels/1581356.html,,2026-09-21,2026-09-28,D5南宁住宿候选,medium,平台标注南宁站约580米、火车站地铁口不足100米；有KTV设施，需核实安静楼层、三人房型、早餐和国庆价格
@@ -90,19 +81,18 @@ F14,commercial,高德壮家菜与桂小厨交叉餐厅页,https://www.amap.com/r
 F15,commercial,山水人家食庄鹅泉店近期点评,https://you.ctrip.com/food/967/17506620.html,2026-09-07,2026-09-19,2026-09-28,D4鹅泉午餐,medium,页面现有7条点评含2026-09-07新评；其余多为历史样本；国庆座位与菜单仍需确认
 F16,community,大众点评内容转载的百色小吃专题,https://fashion.sina.cn/l/ds/2024-01-22/detail-inaczqyh0859190.d.html,2024-01-22,2026-09-19,,D2文明街卷粉,low,引用大众点评用户内容介绍三和卷粉形态与文明街位置；非近期营业证据且旧价不沿用
 R09,commercial,靖西至南宁列车查询,https://trains.ctrip.com/TrainBooking/jingxi2-nanning/dongche/,,2026-09-21,2026-09-28,D5靖西至南宁铁路,medium,K9304公开参考约08:32发11:53至12:00到；用户已购指定日期车票，准确时刻与终到站只按私人票面
-R10,commercial,南宁东至广州南车次与票价快照,https://trains.ctrip.com/trainbooking/nanning-guangzhoudong,,2026-09-20,2026-09-22,D6返程铁路,medium,非指定日期页面可见D3619等车次和浮动二等座价格；10月6日开行余票待12306核验
-R11,official,南宁各站起售时间调整,https://www.nanning.china.com.cn/2025-06/09/content_43138850.htm,2025-06-09,2026-09-20,2026-09-22,D6抢票时间,high,南宁日报内容说明南宁站南宁东站南宁北站调整为15:15；开售前仍按12306查询
 H07,commercial,途泊酒店南宁火车东站南广场店,https://hotels.ctrip.com/hotels/72322654.html,,2026-09-21,2026-09-28,D5南宁住宿候选,medium,平台地址在南广场负一楼出站层并标注距南宁东站约10米；需核实通道有窗房三人入住和国庆库存
 H08,commercial,城市便捷酒店南宁东站南广场店,https://hotels.ctrip.com/hotels/132196604.html,,2026-09-21,2026-09-28,D5南宁住宿候选,medium,平台标注南宁东站约540米地铁站约380米；需核实实际拖箱路线家庭房早餐和国庆库存
 H09,commercial,吉瑞酒店南宁火车东站南广场店,https://hotels.ctrip.com/hotels/68221765.html,,2026-09-21,2026-09-28,D5南宁住宿候选,medium,平台标注南宁东站约640米并有三床家庭评论线索；评论不保证指定日期房型库存
 F17,commercial,桂小厨广西菜南宁万象城店,https://gs.ctrip.com/html5/you/foods/nanning166/5451243.html,,2026-09-20,2026-09-28,D5南宁晚餐,medium,页面显示万象城L4营业时间宝宝椅及菜品；国庆等位和实际营业待现场核实
 F18,commercial,高德南宁市美食榜,https://www.amap.com/ranking/nanning,,2026-09-20,2026-09-28,D5南宁晚餐筛选,medium,榜单用于筛选柠檬鸭等本地餐厅；热度不等于儿童适口或无需排队
-R12,official,12306指定日期余票查询,https://kyfw.12306.cn/otn/leftTicket/init,,2026-09-21,2026-09-22,D5靖西至南宁铁路,high,本次查询未返回10月5日靖西至南宁可购结果；仍需在12306 App复核，商业缓存不能作为票面
 R13,commercial,靖西至南宁公路距离参考,https://www.modiauto.com.cn/luxian/add8176fad9bb342.html,,2026-09-21,2026-09-28,D5公路兜底,low,公开路线页约276公里正常约3.2小时；国庆门到门按4.5至5.5小时规划并以实时导航和书面报价为准
-H10,commercial,Trip.com三城指定日期住宿报价快照,https://hk.trip.com/hotels/list?city=1140&checkin=2026-10-01&checkout=2026-10-03&adult=2&children=1&crn=1&curr=CNY,,2026-09-21,2026-09-22,住宿预算,medium,百色两晚页面含税738至1376元；靖西两晚847至2026元；南宁东站一晚236至546元；最低价多为基础房型，最终须核验8岁儿童和床型
 P01,commercial,三景点OTA公开票价快照,https://touch.piao.qunar.com/touch/detail.htm?id=474328,,2026-09-21,2026-09-28,门票预算,medium,浩坤湖成人58学生30景交36游船成人96；渠洋湖2大1小游船162；鹅泉公开成人约48儿童约20，使用日复核
 U22,user,用户确认已购S4742,,2026-09-21,2026-09-21,,D1西平西至番禺城际,high,10月1日S4742已购；实付金额与私人票面时刻待补；不记录订单号乘车人证件或席位
 R15,commercial,S4742现行公开时刻参考,https://www.gaotie.com.cn/checi/S4742.html,,2026-09-21,2026-09-30,D1西平西至番禺接续,medium,当前公开参考西平西07:50发番禺08:27到；仅作接续规划，10月1日执行以私人票面为准
-STEP01,official,广州市政府：番禺城际站换乘空间,https://www.gz.gov.cn/zwfw/zxfw/jtfw/content/post_9666864.html,,2026-09-22,2026-09-30,D1番禺广州南接续,medium,仅核对番禺站位于广州南地下空间；不承诺具体闸口和国庆查验路线
+STEP01,official,广州市政府：番禺城际站换乘空间,https://www.gz.gov.cn/zwfw/zxfw/jtfw/content/post_9666864.html,,2026-09-22,2026-09-30,D1及D6番禺广州南接续,medium,仅核对番禺站位于广州南地下空间；不承诺具体闸口和国庆查验路线
 STEP02,official,中国天气网广西站：鹅泉景区,https://gx.weather.com.cn/zt/3477559.shtml,2021-07-07,2026-09-22,2026-09-30,D4鹅泉景观背景,medium,历史景观介绍；不用于当日票价开放或二次入园规则
 STEP03,official,中国天气网广西站：渠洋湖风景区,https://gx.weather.com.cn/zt/3477578.shtml,,2026-09-22,2026-09-30,D3渠洋湖景观背景,medium,历史景观介绍；不用于码头船务或运营承诺
+U23,user,用户确认10月6日D593南宁东至广州南已购,,,2026-09-27,,D6已购状态与区间,high,9/27本轮用户确认；实付、席别和准确票面时刻未提供；不推定订单细节
+R17,commercial,D593公开参考时刻，非私人订单,https://trains.ctrip.com/TrainBooking/nanningdong-guangzhounan,,2026-09-27,2026-10-05,D6作息规划,medium,9/27页面11:28至14:14；gaotie.net/train/D593/列14:13，相差1分钟；不是10/6已出票凭证，价格不用作实付
+R16,commercial,番禺至西平西直达城际公开样本,https://train.qunar.com/train/tickets/panyu-to-xipingxi/2026-09-27,,2026-09-27,2026-10-05,D6返家接续备选,medium,9/27非出行日样本存在直达；不据此承诺10/6班次、价格或余票；15:45是规划选班目标，不是已查询到的车次

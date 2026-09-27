@@ -302,7 +302,7 @@ def footer(canvas, doc):
     canvas.line(14 * mm, 12 * mm, A4[0] - 14 * mm, 12 * mm)
     canvas.setFont("MSYH", 7)
     canvas.setFillColor(MUTED)
-    canvas.drawString(14 * mm, 7 * mm, "更新 2026-09-22 · 票面、官方公告与实时导航优先")
+    canvas.drawString(14 * mm, 7 * mm, "更新 2026-09-27 · 票面、官方公告与实时导航优先")
     canvas.drawRightString(A4[0] - 14 * mm, 7 * mm, f"第 {doc.page} 页")
 
 
@@ -333,7 +333,18 @@ def build_one(project: Path, output: Path, day_number: int, route: dict, styles)
         before_details, after_details = day_text.split(detail_marker, 1)
     else:
         before_details, after_details = day_text, ""
-    story.extend(markdown_flowables(before_details, project, styles, skip_h1=True))
+    if day_number == 6:
+        # Keep transfer instructions and contingencies on intentional pages.
+        sections = re.split(
+            r"(?=^### 第4步｜|^## 返程发生变化时)", before_details,
+            flags=re.MULTILINE,
+        )
+        for index, section in enumerate(sections):
+            if index:
+                story.append(PageBreak())
+            story.extend(markdown_flowables(section, project, styles, skip_h1=True))
+    else:
+        story.extend(markdown_flowables(before_details, project, styles, skip_h1=True))
     story.append(Paragraph("当天美食", styles["h2"]))
     dining_text = extract_dining_section(project / "content" / "dining-guide.md", day_number)
     story.extend(markdown_flowables(dining_text, project, styles))

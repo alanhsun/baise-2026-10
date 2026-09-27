@@ -1,0 +1,14 @@
+source_id,source_type,title,url,published_at,verified_at,expires_at,applies_to,confidence,notes
+R01,official,12306当前起售时间公告,https://www.12306.cn/mormhweb/mobile_zxdt/201411/t20141126_2316.html,,2026-09-17,2026-09-22,D1 D6铁路与购票,medium,广州南10:15、百色17:30；旧发布日期页面的当前正文，临时调整复核
+R02,commercial,D3830现行时刻,https://trains.ctrip.com/TrainSchedule/D3830,,2026-09-17,2026-09-22,D1 D6铁路与购票,medium,广州南10:32百色15:34，未核实指定日期开行
+R03,commercial,广州南百色现行票价与备选,https://trains.ctrip.com/trainbooking/guangzhounan-baise/,,2026-09-17,2026-09-22,D1 D6铁路与购票,medium,337.5成人二等座快照，非10/1订单价，不采用余票
+R04,commercial,D3804现行时刻,https://trains.ctrip.com/TrainSchedule/D3804,,2026-09-17,2026-09-22,D1 D6铁路与购票,medium,百色10:03广州南15:26，10/6待预售期复核
+R05,commercial,百色广州南现行票价与备选,https://trains.ctrip.com/trainbooking/baise-guangzhounan/,,2026-09-17,2026-09-22,D1 D6铁路与购票,medium,337.5成人二等座快照，非10/6报价
+R06,official,12306儿童优惠票与最低票价,https://kyfw.12306.cn/otn/gonggao/children.html,,2026-09-17,2026-09-22,D1 D6铁路与购票,medium,儿童约169仅条件性估算，系统金额为准
+R08,official,12306候补规则,https://kyfw.12306.cn/otn/gonggao/alternate.html,,2026-09-17,2026-09-22,D1 D6铁路与购票,medium,同一需求不部分兑现；付款后生效；未替用户操作
+U21,user,用户指定G2955返程计划与南宁住宿区域,,2026-09-21,2026-09-21,,D6返程与南宁住宿,high,计划10月6日G2955南宁至虎门；南宁酒店尽量选南宁站周边；车票尚未确认已购
+R14,commercial,G2955南宁至虎门现行时刻与票价参考,https://m.ctrip.com/html5/trains/nanningdong-humen/,,2026-09-21,2026-09-22,D6返程铁路,medium,公开参考南宁站13:58发虎门17:27到约3小时29分；成人二等座289.5元起；指定日期以12306票面为准
+R10,commercial,南宁东至广州南车次与票价快照,https://trains.ctrip.com/trainbooking/nanning-guangzhoudong,,2026-09-20,2026-09-22,D6返程铁路,medium,非指定日期页面可见D3619等车次和浮动二等座价格；10月6日开行余票待12306核验
+R11,official,南宁各站起售时间调整,https://www.nanning.china.com.cn/2025-06/09/content_43138850.htm,2025-06-09,2026-09-20,2026-09-22,D6抢票时间,high,南宁日报内容说明南宁站南宁东站南宁北站调整为15:15；开售前仍按12306查询
+R12,official,12306指定日期余票查询,https://kyfw.12306.cn/otn/leftTicket/init,,2026-09-21,2026-09-22,D5靖西至南宁铁路,high,本次查询未返回10月5日靖西至南宁可购结果；仍需在12306 App复核，商业缓存不能作为票面
+H10,commercial,Trip.com三城指定日期住宿报价快照,https://hk.trip.com/hotels/list?city=1140&checkin=2026-10-01&checkout=2026-10-03&adult=2&children=1&crn=1&curr=CNY,,2026-09-21,2026-09-22,住宿预算,medium,百色两晚页面含税738至1376元；靖西两晚847至2026元；南宁东站一晚236至546元；最低价多为基础房型，最终须核验8岁儿童和床型
