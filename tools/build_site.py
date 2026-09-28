@@ -83,17 +83,6 @@ def markdown_html(path: Path) -> str:
     return markdown_text_html(path.read_text(encoding="utf-8"))
 
 
-def dining_by_day(path: Path) -> dict[str, str]:
-    """Split the dining guide into one rendered fragment per day."""
-    text = path.read_text(encoding="utf-8")
-    headings = list(re.finditer(r"^## D(\d+)\b[^\n]*\n", text, re.MULTILINE))
-    sections: dict[str, str] = {}
-    for index, heading in enumerate(headings):
-        end = headings[index + 1].start() if index + 1 < len(headings) else len(text)
-        day_id = f"day-{int(heading.group(1)):02d}"
-        sections[day_id] = markdown_text_html(text[heading.end():end].strip())
-    return sections
-
 
 def render_table(
     rows: list[dict[str, str]], labels: dict[str, str], transport_links: bool = False,
@@ -270,6 +259,7 @@ def main() -> int:
         )
     }
     overview = markdown_html(project / "content" / "overview.md")
+    overview = overview.replace('<h2>六天天气速查</h2>', '<h2 id="weather">六天天气速查</h2>')
     pdf_links = "".join(
         f'<a href="pdf/day-{day:02d}-2026-10-{day:02d}.pdf">D{day} · 10/{day}</a>'
         for day in range(1, 7)
@@ -278,7 +268,6 @@ def main() -> int:
         "<p>DAILY_PDF_LINKS</p>",
         f'<div class="pdf-downloads" aria-label="每日离线PDF下载">{pdf_links}</div>',
     )
-    dining_sections = dining_by_day(project / "content" / "dining-guide.md")
     route_data = yaml.safe_load(
         (project / "data" / "day-routes.yaml").read_text(encoding="utf-8")
     ) or {}
@@ -297,23 +286,8 @@ def main() -> int:
         if anchor not in day_html:
             raise ValueError(f"Missing timeline heading in {path.name}")
         day_html = day_html.replace(anchor, render_route_map(route) + anchor, 1)
-        dining_html = dining_sections.get(path.stem)
-        if dining_html is None:
-            raise ValueError(f"Missing dining guide section for {path.name}")
-        dining_block = (
-            '<div class="day-meals">'
-            '<h2>当天美食</h2>' + dining_html + '</div>'
-        )
-        detail_anchor = "<h2>看点与现场提醒</h2>"
-        reminder_anchor = "<h2>当日提醒</h2>"
-        if detail_anchor in day_html:
-            day_html = day_html.replace(detail_anchor, dining_block + detail_anchor, 1)
-        elif reminder_anchor in day_html:
-            day_html = day_html.replace(reminder_anchor, dining_block + reminder_anchor, 1)
-        else:
-            day_html += dining_block
         shortcuts = []
-        for heading, suffix in [("行程时间轴", "timeline"), ("当天照着走", "steps"), ("当天美食", "meals"), ("公共交通备选", "public")]:
+        for heading, suffix in [("天气与当天调整", "weather"), ("行程时间轴", "timeline"), ("详细行程", "steps"), ("公共交通备选", "public")]:
             anchor_id = f"{path.stem}-{suffix}"
             marker = f"<h2>{heading}</h2>"
             if marker in day_html:

@@ -34,12 +34,9 @@ def main():
             value = value.replace('@@PHOTO:'+slug+'@@', insert)
         path.write_text(value, 'utf-8')
     (ROOT/'media/PHOTO-CREDITS.md').write_text('\n'.join(credits), 'utf-8')
-    dining = (ROOT/'content/dining-guide.md').read_text('utf-8')
-    meals = {int(n):body.strip() for n,body in re.findall(r'^## D(\d) [^\n]+\n(.*?)(?=^## D\d |\Z)', dining, re.M|re.S)}
     parts = [(ROOT/'content/overview.md').read_text('utf-8')]
     for n,path in enumerate(sorted((ROOT/'content/days').glob('day-*.md')), 1):
         value = path.read_text('utf-8')
-        value = value.replace('## 看点与现场提醒', '## 当天美食\n\n'+meals[n]+'\n\n## 看点与现场提醒', 1)
         parts += ['\n---\n', value]
     (ROOT/'详尽攻略.md').write_text('\n'.join(parts), 'utf-8')
     shutil.copy2(ROOT/'research/social-validation.md', ROOT/'研究与核验说明.md')

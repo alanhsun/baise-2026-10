@@ -22,7 +22,6 @@ from reportlab.platypus import (
     KeepTogether,
     ListFlowable,
     ListItem,
-    PageBreak,
     Paragraph,
     SimpleDocTemplate,
     Spacer,
@@ -111,15 +110,6 @@ def make_styles() -> dict[str, ParagraphStyle]:
                                   wordWrap="CJK"),
     }
 
-
-def extract_dining_section(path: Path, day_number: int) -> str:
-    text = path.read_text(encoding="utf-8")
-    start = re.search(rf"^## D{day_number}\b.*$", text, flags=re.MULTILINE)
-    if not start:
-        raise ValueError(f"Missing dining section D{day_number}")
-    next_heading = re.search(r"^## D\d+\b.*$", text[start.end():], flags=re.MULTILINE)
-    end = start.end() + (next_heading.start() if next_heading else len(text[start.end():]))
-    return text[start.end():end].strip()
 
 
 def image_flowable(project: Path, target: str, alt: str, styles: dict[str, ParagraphStyle]):
@@ -307,6 +297,13 @@ def footer(canvas, doc):
 
 
 def build_one(project: Path, output: Path, day_number: int, route: dict, styles):
+    # Compact spacing reduces short spillover pages without shrinking the text.
+    styles = {name: style.clone(f"daily_{name}") for name, style in styles.items()}
+    for name, style in styles.items():
+        style.name = name
+    styles["body"].leading = 14.4
+    styles["body"].spaceAfter = 1.7 * mm
+    styles["h3"].spaceBefore = 3 * mm
     day_path = project / "content" / "days" / f"day-{day_number:02d}.md"
     day_text = day_path.read_text(encoding="utf-8")
     first_heading = re.search(r"^#\s+(.+)$", day_text, flags=re.MULTILINE)
@@ -328,39 +325,13 @@ def build_one(project: Path, output: Path, day_number: int, route: dict, styles)
     story.append(Paragraph("本页为离线备查。出现列车调整、预警、道路管制、景区公告或身体不适时，立即以安全和休息优先。", styles["callout"]))
     story.extend(route_flowables(route, styles))
     story.append(Spacer(1, 4 * mm))
-    detail_marker = "\n## 看点与现场提醒\n"
-    if detail_marker in day_text:
-        before_details, after_details = day_text.split(detail_marker, 1)
+    public_marker = "\n## 公共交通备选\n"
+    if public_marker in day_text:
+        main_text, public_text = day_text.split(public_marker, 1)
+        story.extend(markdown_flowables(main_text, project, styles, skip_h1=True))
+        story.append(KeepTogether(markdown_flowables("## 公共交通备选\n" + public_text, project, styles)))
     else:
-        before_details, after_details = day_text, ""
-    if day_number == 6:
-        # Keep transfer instructions and contingencies on intentional pages.
-        sections = re.split(
-            r"(?=^### 第4步｜|^## 返程发生变化时)", before_details,
-            flags=re.MULTILINE,
-        )
-        for index, section in enumerate(sections):
-            if index:
-                story.append(PageBreak())
-            story.extend(markdown_flowables(section, project, styles, skip_h1=True))
-    else:
-        story.extend(markdown_flowables(before_details, project, styles, skip_h1=True))
-    if day_number == 4:
-        # Keep dining recommendations together after the full-page photo gallery.
-        story.append(PageBreak())
-    story.append(Paragraph("当天美食", styles["h2"]))
-    dining_text = extract_dining_section(project / "content" / "dining-guide.md", day_number)
-    story.extend(markdown_flowables(dining_text, project, styles))
-    if after_details:
-        remainder = "## 看点与现场提醒\n" + after_details
-        public_marker = "\n## 公共交通备选\n"
-        if public_marker in remainder:
-            reminders, public_transport = remainder.split(public_marker, 1)
-            story.extend(markdown_flowables(reminders, project, styles))
-            story.append(PageBreak())
-            story.extend(markdown_flowables("## 公共交通备选\n" + public_transport, project, styles))
-        else:
-            story.extend(markdown_flowables(remainder, project, styles))
+        story.extend(markdown_flowables(day_text, project, styles, skip_h1=True))
     day_label = f"D{day_number} · {date}"
     doc.build(
         story,
@@ -404,7 +375,10 @@ def main() -> int:
     overview_pdf.parent.mkdir(parents=True, exist_ok=True)
     overview_doc = SimpleDocTemplate(str(overview_pdf), pagesize=A4, rightMargin=14*mm, leftMargin=14*mm,
         topMargin=23*mm, bottomMargin=18*mm, title="百色靖西家庭旅行总览", author="家庭旅行规划")
-    overview_doc.build(markdown_flowables(overview_text, project, styles),
+    overview_main, overview_checklist = overview_text.split("## 出发前48小时清单", 1)
+    overview_story = markdown_flowables(overview_main, project, styles)
+    overview_story.append(KeepTogether(markdown_flowables("## 出发前48小时清单" + overview_checklist, project, styles)))
+    overview_doc.build(overview_story,
         onFirstPage=lambda c,d:first_page(c,d,"总览"), onLaterPages=lambda c,d:later_page(c,d,"总览"))
     from pypdf import PdfWriter
     combined = PdfWriter()
